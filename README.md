@@ -18,6 +18,9 @@ describe why your project could have a broader societal im-
 pact. Or, you may describe the motivation from a personal
 learning perspective.
 
+-----
+"Here we should talk about the state of abortion policy in europe in the last couple of years, and see the state of it currently (could use information from the Atlas")
+
 **4. Evaluation**
 
 What would the successful outcome of your project look

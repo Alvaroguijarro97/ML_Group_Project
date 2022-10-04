@@ -32,7 +32,7 @@ What resources are you going to use (datasets, computer hardware, computational 
 
 -----
 
-Abortion statistics published by the Federal Statistical Office of Germany contain numbers for annual abortions in each state, distinguishing (among others) between abortions performed on foreigners and native population. The European Parliamentary Forum for Sexual and Reproductive Rights developed the European Abortion Policies Atlas, which is an in-depth analysis of abortion policies across Europe. Within their atlas, European countries are ranked based on their policies regarding abortion and abortion care.  Combining this data with German census data, we hope to identify driving factors for higher shares of abortions performed on foreigners, checking for variables such as composition of foreign population or proximity to neighboring countries with stricter abortion policies.
+[Abortion statistics](https://www-genesis.destatis.de/) published by the Federal Statistical Office of Germany contain numbers for annual abortions in each state, distinguishing (among others) between abortions performed on foreigners and native population. The European Parliamentary Forum for Sexual and Reproductive Rights developed the European Abortion Policies Atlas, which is an in-depth analysis of abortion policies across Europe. Within their atlas, European countries are ranked based on their policies regarding abortion and abortion care.  Combining this data with German census data, we hope to identify driving factors for higher shares of abortions performed on foreigners, checking for variables such as composition of foreign population or proximity to neighboring countries with stricter abortion policies.
 
 **6. Contributions**
 

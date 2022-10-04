@@ -3,9 +3,9 @@ Git Hub Repository for the Machine Learning group project.
 
 **1. Introduction**
 
-_In this section, describe what you are planning to do. Also, briefly describe related work.
+_In this section, describe what you are planning to do. Also, briefly describe related work._
 
-When discussing related work, do not forget to include appropriate references.  This is an example of a citation \cite{kim_convolutional_2014}. To format the citations properly, put the corresponding references into the bibliography.bib file. You can obtain BibTeX-formatted references for the "bib" file from Google Scholar (\url{https://scholar.google.com}), for example, by clicking on the double-quote character under a citation and then selecting, \mbox{"BibTeX"} as shown in Figure \ref{fig:google-scholar-1col} and Figure \ref{fig:google-scholar-2col}._
+_When discussing related work, do not forget to include appropriate references.  This is an example of a citation \cite{kim_convolutional_2014}. To format the citations properly, put the corresponding references into the bibliography.bib file. You can obtain BibTeX-formatted references for the "bib" file from Google Scholar (\url{https://scholar.google.com}), for example, by clicking on the double-quote character under a citation and then selecting, \mbox{"BibTeX"} as shown in Figure \ref{fig:google-scholar-1col} and Figure \ref{fig:google-scholar-2col}._
 
 **3. Motivation**
 

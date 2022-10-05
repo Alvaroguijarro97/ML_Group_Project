@@ -10,31 +10,19 @@ Git Hub Repository for the Machine Learning group project.
 
 **1. Introduction**
 
-In this section, describe what you are planning to do. Also, briefly
-describe related work.
+The "Europe Abortion Access Project", CONTEXT ON THIS GROUP, concludes that cross border travel for the purpose of seeking abortion care is a "phenomenon [that] remains poorly understood". The researchers argue that the lack of scientific insight in this aspect of  European abortion regimes is linked to a general lack of sufficient "quantitative and qualitative data" on the matter. Our research aims to contributing to a closure of this gap by investigating data on abortion numbers on the state-level within Germany. We believe that based on this data, we can contribute to finding answers regarding cross country abortion travel. Our goal is to develop a classification model that allows predictions on abortions performed on foreigners in comparison to abortions performed on German citizens. As independent variables.
+We expect a number of factors to potentially play a role when it comes to increase the share of abortions on foreigners: 
+1. An important factor is the share of foreigners in the overall population in a given state. There is a straightforward reasoning behind this expectation: Foreign residents are expected to seek abortions, a higher share of foreigners can be expected to result in a higher share of abortions performed on foreigners.
+2. However, we also expect a less direct positive effect of higher foreign populations to play a role. Women from abroad that consider travelling to Germany for an abortion might be inclined to do so in an area where they have a social network such as family members or friends (for emotional support, for logistical/language support, for shelter).  A bigger foreign community in a state could therefore be a pull factor for women to travel from abroad to this particular state in order to seek abortion care. This effect can be expected to be stronger for countries of origin that have a more restrictive abortion policy in place than Germany.
+3. In addition to a social network in a state, proximity to the country of origin might be a pull factor for women to travel to one state instead of another. Shorter (and possibly cheaper) traveling might be a reason to seek a therapy in a closer state. Again, this effect can be expected to be stronger for countries of origin that have a more restrictive abortion policy in place than Germany. In other words: states within Germany that are closer to borders with neighboring countries that have stricter abortion laws can be expected to have higher shares of foreigners seeking abortion treatment. 
 
-When discussing related work, do not forget to include appropriate
-references. This is an example of a citation
-\cite{kim_convolutional_2014}. To format the citations properly, put the
-corresponding references into the bibliography.bib file. You can obtain
-BibTeX-formatted references for the "bib" file from Google Scholar
-(\url{https://scholar.google.com}), for example, by clicking on the
-double-quote character under a citation and then selecting,
-\mbox{"BibTeX"} as shown in Figure \ref{fig:google-scholar-1col} and
-Figure \ref{fig:google-scholar-2col}.
+We intend to cover these effects on our dependent variable - the share of abortions performed on foreigners on
+overall population per state in proportion to the share of foreign population on overall population per state - in our model by combining a number of different data sets, as explained in greater detail further below. We hope to train our model based on a sample of roughly 100.000 abortions performed in Germany in the year 2021. Given the size of our sample and the nature of our research interest, we are confident that we can build a SGD classifier model that distinguishes between "foreign" and "domestic" abortions. 
 
-------------------------------------------------------------------------
+Next: Continue on how we  do that
 
-The three of us are really interested in current health policies and we
-found some interesting datasets regarding abortion numbers on the
-state-level within Germany. We believe that based on this data, we can
-contribute to finding answers regarding cross country abortion travel.
-Especially within the Schengen Area, citizens of countries with (more)
-restrictive abortion policies might travel across borders to receive
-abortion treatment in (more) permissive neighboring states. Abortion
-policies of one country would thereby have an influence on abortion
-numbers in neighboring countries as well. We intend to shine a light on
-such effects by looking at data for the German states: Given for
+Especially within the Schengen Area, citizens of countries with (more) restrictive abortion policies might travel across borders to receive abortion treatment in (more) permissive neighboring states. Abortion
+policies of one country would thereby have an influence on abortion numbers in neighboring countries as well. We intend to shine a light on such effects by looking at data for the German states: Given for
 instance the strict regulation of abortions in Poland, a possible
 finding in line with the described assumption could be higher numbers of
 abortions performed on foreigners in German states close by Polish

@@ -93,7 +93,7 @@ What resources are you going to use (datasets, computer hardware, computational 
 
 *Data Sets*
 
-1. The [European Abortion Policies Atlas-September 2021](<https://www.epfweb.org/node/857>)
+1. The [European Abortion Policies Atlas](<https://www.epfweb.org/node/857>)
 
 The European Abortion Policies Atlas is  an in-depth analysis of abortion policies across Europea, which scores 53 European countries and territories in accordance with their legal frameworks in reference to their access to safe abortion care. The Atlas is an initiative witch is powered by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN).
 

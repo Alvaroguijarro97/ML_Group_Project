@@ -94,11 +94,13 @@ What resources are you going to use (datasets, computer hardware, computational 
 *Data Sets*
 
 1. The [European Abortion Policies Atlas-September 2021](<https://www.epfweb.org/node/857>)
+
 The European Abortion Policies Atlas is a data set which scores 53 European countries and territories in accordance with their legal frameworks in reference to their access to safe abortion care. The Atlas is an initiative witch is powered by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN).
 
 The questions and structures for the Atlas were designed by a group of experts in sexual and reproductive health and rights. They came up with an overall score on a scale from 0-100 composed of four sections with several sub-categories: "access", "legal status of abortion care”, "clinical care and service delivery", "information and on-line information"
 
 2. [Abortion Statistics for Germany: Genesis (statistisches Bundesamt) ID: 23311-0006](<https://www-genesis.destatis.de/genesis//online?operation=table&code=23311-0006&bypass=true&levelindex=1&levelid=1664961110565#abreadcrumb>)
+
 The data set concerning abortions of the Federal Statistical Office contains information at the level of the Federal Länder on abortions performed annually, subdivided into the individual quarters. Furthermore, information on the origin of the patient is listed for the individual procedures, whereby a distinction is made between the various federal states and the category "foreigners". The dataset contains information for all 16 federal states with an annual number of about 100,000 abortions performed in Germany from 1996 up to 2021.
 
 3. [Foreign population: Ausländer: Bundesländer, Stichtag, Geschlecht, Altersjahre, Ländergruppierungen/Staatsangehörigkeit. Genesis (statistisches Bundesamt) ID: 12521-0022](<https://www-genesis.destatis.de/genesis/online#astructure>)

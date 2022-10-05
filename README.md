@@ -94,10 +94,9 @@ What resources are you going to use (datasets, computer hardware, computational 
 *Data Sets*
 
 1. The [European Abortion Policies Atlas-September 2021](<https://www.epfweb.org/node/857>)
-- "scores 53 European countries and territories on legal frameworks to access safe abortion care" (from epf website)
-- "This initiative is powered by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN). We are grateful to the numerous national organisations and country experts who contributed to gathering the data presented in the Atlas. The Atlas was produced in partnership with a group of experts in sexual and reproductive health and rights (see overleaf ) who designed the questions and structures. The scope and the content of the European Contraception Atlas is the sole responsibility of EPF and IPPF EN." (from Atlas PDF itself)
-- The questions and structures for the Atlas were designed by a group of experts in sexual and reproductive health and rights. They came up with an overall score on a scale from 0-100 composed of four sections with several sub-categories: "access", "legal status of abortion care”, "clinical care and service delivery", "information and on-line information"
+The European Abortion Policies Atlas is a dataset which scores 53 European countries and territories in accordance with their legal frameworks in reference to their access to safe abortion care. The Atlas is an initiative witch is powered by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN).
 
+The questions and structures for the Atlas were designed by a group of experts in sexual and reproductive health and rights. They came up with an overall score on a scale from 0-100 composed of four sections with several sub-categories: "access", "legal status of abortion care”, "clinical care and service delivery", "information and on-line information"
 
 2. [Abortion Statistics for Germany: Genesis (statistisches Bundesamt) ID: 23311-0006](<https://www-genesis.destatis.de/genesis//online?operation=table&code=23311-0006&bypass=true&levelindex=1&levelid=1664961110565#abreadcrumb>)
 - contains state level information on abortions performed on a annual base (also available by quartal), including (among others) information about the origin of the receiving patient distinguishing between the different states of Germany and category "Foreigner"

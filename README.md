@@ -71,11 +71,7 @@ In keeping with this vision, we believe that our project could contribute to imp
 
 **Research relevance**:
 
-The Europe Abortion Access Project writes on its research website that the phenomenon of transnational abortion travel remains poorly understood. According to them, this requires further quantitative and qualitative studies. They write that it is known that many European women travel for abortions outside and/or within the borders of their country of residence, even from countries with relatively liberal abortion laws. (accessed on October 5 2022, section "journeys": <https://europeabortionaccessproject.org/#what>)
-
-**Possible real world use**:
-
-- Morality policies as a core of polity´s self-definition (look up source). If Schengen allows to bypass national regulation of abortion policies via cross-country abortion travel, that would undermine the effectiveness of national regulation on the issue beyond self-attribution(?) (needs revision, too strongly put)
+As already mentioned in the Europe Abortion Access Project writes on its research website that the phenomenon of transnational abortion travel remains poorly understood. According to them, this requires further quantitative and qualitative studies. They write that it is known that many European women travel for abortions outside and/or within the borders of their country of residence, even from countries with relatively liberal abortion laws. (accessed on October 5 2022, section "journeys": <https://europeabortionaccessproject.org/#what>)
 
 **Learning perspective**:
 

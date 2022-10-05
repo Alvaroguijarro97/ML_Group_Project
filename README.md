@@ -63,7 +63,6 @@ Model used: SGD Classifier (TBA)
 
 **2. Motivation**
 
-|-------|
 **Societal Relevance**:
 
 Europe's health systems are embedded in their respective social welfare landscapes. However, this also means that health systems in the EU are diverse and reflect different social choices. On the other hand, health systems in the EU are increasingly interacting with each other. Especially since the Directive on Patients' Rights in Cross-Border Healthcare. (Richtlinie 2011/24/EU über die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung (ABl. L 88 vom 4.4.2011). For patients in Europe, this means that the costs for treatment abroad are reimbursed by the respective health insurance fund up to the amount that would have been incurred for the corresponding treatment at home.

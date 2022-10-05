@@ -104,6 +104,7 @@ The questions and structures for the Atlas were designed by a group of experts i
 The data set concerning abortions of the Federal Statistical Office contains information at the level of the Federal Länder on abortions performed annually, subdivided into the individual quarters. Furthermore, information on the origin of the patient is listed for the individual procedures, whereby a distinction is made between the various federal states and the category "foreigners". The dataset contains information for all 16 federal states with an annual number of about 100,000 abortions performed in Germany from 1996 up to 2021.
 
 3. [Foreigner statistics of the Federal Statistical Office ID: 12521-0022](<https://www-genesis.destatis.de/genesis/online#astructure>)
+
 The statistics on foreigners of the Federal Statistical Office contain different representations of the regional distribution of the foreign population. Among other things, they list the federal states, sex, years of age and
 country groupings/citizenship.
 

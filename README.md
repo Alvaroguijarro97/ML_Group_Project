@@ -106,13 +106,14 @@ The data set concerning abortions of the Federal Statistical Office contains inf
 3. [Foreigner statistics ID: 12521-0022](<https://www-genesis.destatis.de/genesis/online#astructure>)
 
 The statistics on foreigners of the Federal Statistical Office contain different representations of the regional distribution of the foreign population. Among other things, they list the federal states, sex, years of age and
-country groupings/citizenship.
+country groupings/citizenship. With the help of this database we hope to identify driving factors for higher shares of abortions performed on foreigners, checking for variables such as composition of foreign population or proximity to neighboring countries with stricter abortion policies.
 
-4. [World Cities Database](https://simplemaps.com/data/world-cities): With the help of this database, which contains information like City Name, Longitude, Latitude, Country, State, Region, City Status, Population Density, Population, and Id of more than 4 million unique cities around de world, we will create our own database with the information needed for the European Continent. With this databse we expect to calculate the shortest distance from all of the German State's Capitals (or their biggest city) with the closest city from their neighbouring european countries, in order to determine the distance between said states and countries.
+4. [World Cities Database](https://simplemaps.com/data/world-cities):
 
- we hope to identify driving factors for higher shares of abortions performed on foreigners, checking for variables such as composition of foreign population or proximity to neighboring countries with stricter abortion policies.
+With the help of this database, which contains information like City Name, Longitude, Latitude, Country, State, Region, City Status, Population Density, Population, and Id of more than 4 million unique cities around de world, we will create our own database with the information needed for the European Continent. With this database we expect to calculate the shortest distance from all of the German State's Capitals (or their biggest city) with the closest city from their neighboring European countries, in order to determine the distance between said states and countries.
  
-Computational tools 
+*Computational tools*
+
 Github will be used for version control and collaboration, and coding will be performed in Jupyter Notebooks and Visual Studio Code.
 
 **5. Contributions**

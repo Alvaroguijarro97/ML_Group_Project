@@ -95,23 +95,23 @@ What resources are you going to use (datasets, computer hardware, computational 
 
 1. The [European Abortion Policies Atlas-September 2021](<https://www.epfweb.org/node/857>)
 
-The European Abortion Policies Atlas is a data set which scores 53 European countries and territories in accordance with their legal frameworks in reference to their access to safe abortion care. The Atlas is an initiative witch is powered by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN).
+The European Abortion Policies Atlas is  an in-depth analysis of abortion policies across Europea, which scores 53 European countries and territories in accordance with their legal frameworks in reference to their access to safe abortion care. The Atlas is an initiative witch is powered by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN).
 
 The questions and structures for the Atlas were designed by a group of experts in sexual and reproductive health and rights. They came up with an overall score on a scale from 0-100 composed of four sections with several sub-categories: "access", "legal status of abortion care”, "clinical care and service delivery", "information and on-line information"
 
-2. [Abortion Statistics for Germany: Genesis (statistisches Bundesamt) ID: 23311-0006](<https://www-genesis.destatis.de/genesis//online?operation=table&code=23311-0006&bypass=true&levelindex=1&levelid=1664961110565#abreadcrumb>)
+2. [Abortion Statistics for Germany ID: 23311-0006](<https://www-genesis.destatis.de/genesis//online?operation=table&code=23311-0006&bypass=true&levelindex=1&levelid=1664961110565#abreadcrumb>)
 
 The data set concerning abortions of the Federal Statistical Office contains information at the level of the Federal Länder on abortions performed annually, subdivided into the individual quarters. Furthermore, information on the origin of the patient is listed for the individual procedures, whereby a distinction is made between the various federal states and the category "foreigners". The dataset contains information for all 16 federal states with an annual number of about 100,000 abortions performed in Germany from 1996 up to 2021.
 
-3. [Foreigner statistics of the Federal Statistical Office ID: 12521-0022](<https://www-genesis.destatis.de/genesis/online#astructure>)
+3. [Foreigner statistics ID: 12521-0022](<https://www-genesis.destatis.de/genesis/online#astructure>)
 
 The statistics on foreigners of the Federal Statistical Office contain different representations of the regional distribution of the foreign population. Among other things, they list the federal states, sex, years of age and
 country groupings/citizenship.
 
 4. [World Cities Database](https://simplemaps.com/data/world-cities): With the help of this database, which contains information like City Name, Longitude, Latitude, Country, State, Region, City Status, Population Density, Population, and Id of more than 4 million unique cities around de world, we will create our own database with the information needed for the European Continent. With this databse we expect to calculate the shortest distance from all of the German State's Capitals (or their biggest city) with the closest city from their neighbouring european countries, in order to determine the distance between said states and countries.
 
-5. [Abortion statistics](https://www-genesis.destatis.de/) published by the Federal Statistical Office of Germany contain numbers for annual abortions in each state, distinguishing (among others) between abortions performed on foreigners and native population. The European Parliamentary Forum for Sexual and Reproductive Rights developed the [European Abortion Policies Atlas](https://www.epfweb.org/sites/default/files/2021-09/ABORT%20Atlas_EN%202021-v5.pdf), which is an in-depth analysis of abortion policies across Europe. Within their atlas, European countries are ranked based on their policies regarding abortion and abortion care. Combining this data with [German census data](https://www-genesis.destatis.de/genesis/online?operation=table&code=12521-0021&bypass=true&levelindex=0&levelid=1664271586875#abreadcrumb), we hope to identify driving factors for higher shares of abortions performed on foreigners, checking for variables such as composition of foreign population or proximity to neighboring countries with stricter abortion policies.
-
+ we hope to identify driving factors for higher shares of abortions performed on foreigners, checking for variables such as composition of foreign population or proximity to neighboring countries with stricter abortion policies.
+ 
 Computational tools 
 Github will be used for version control and collaboration, and coding will be performed in Jupyter Notebooks and Visual Studio Code.
 

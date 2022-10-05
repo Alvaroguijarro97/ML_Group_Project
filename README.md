@@ -82,6 +82,25 @@ What resources are you going to use (datasets, computer hardware, computational 
 
 Data Sets
 1. The European Abortion Policies Atlas-September 2021 (https://www.epfweb.org/node/857)
+- "scores 53 European countries and territories on legal frameworks to access safe abortion care" (from epf website)
+- "This initiative is powered by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN). We are grateful to the numerous national 
+organisations and country experts who contributed to gathering the data presented in the Atlas. The Atlas was produced in partnership with a group of experts in sexual and reproductive health and rights (see overleaf ) who designed the questions and structures. The scope and the content of the European Contraception Atlas is the sole responsibility of EPF and IPPF EN." (from Atlas PDF itself)
+- "EXPERT GROUP: The below group of experts in sexual and reproductive health and rights designed 
+the questions and structures for the Atlas.
+  - LEGAL: Sylvie Lausberg / Diane Gardiol, Centre d’Action Laïque ASBL, Aintzane Marquéz, Women’s Link Worldwide
+  - MEDICAL: Marge Berer, International Campaign for Women’s Right to Safe Abortion
+  - ACADEMIA: Niklas Barke,  Åbo Akademi University
+  - POLITICIANS: Hon. Lia Quartapelle, MP (Italy)
+  - PRACTITIONER: Yannick Manigart, OBGYN, University Hospital CHU Saint Pierre
+  - INTERNATIONAL STANDARDS: Antonella Lavelanet, WHO
+  - YOUTH: Lili Steffen, Y Safe
+  - PROJECT PARTNERS: Neil Datta / Marina Davidashvili, EPF, Caroline Hickson / Irene Donadio / 
+Lena Luyckfasseel, IPPF EN
+- an overall score on a scale from 0-100 composed of four sections with several sub-categories:
+  - "ACCESS",
+  - "LEGAL STATUS OF ABORTION CARE",
+  - "CLINICAL CARE AND SERVICE DELIVERY",
+  - "INFORMATION AND ON-LINE INFORMATION"
 2. Abortion Statistics for Germany: Genesis (statistisches Bundesamt) ID: 23311-0006
 (https://www-genesis.destatis.de/genesis//online?operation=table&code=23311-0006&bypass=true&levelindex=1&levelid=1664961110565#abreadcrumb)
 3. Foreign population: Ausländer: Bundesländer, Stichtag, Geschlecht, Altersjahre,

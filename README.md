@@ -129,19 +129,19 @@ you need to work together and coordinate your efforts.)
 Clearly indicate what computational and writing task each member of your
 group will be participating in.
 
+*|Sections required on final project:
+0. Abstract 
+1. Introduction
+2. Related Work (Alvaro)
+3. Proposed Method 
+5. Analysis 
+6. Conclusions 
+7. Acknowledgements 
+8. Contributions (Alvaro) 
+9. References (all) 
+10. Appendix (all) 
+
 ------------------------------------------------------------------------
 
 Group member Alvaro Guijarro will be primarely focused on the data wrangling and preprocessing section in the Machile Learning pipeline. In order to costruct an effective ML classification model, we must work with a robust and clean data set, which will be the result of combining different data sources into a unified dataframe. Once this is done, we can later confidently split our data into the necessary training and testing sets. Alongside this tasks, Alvaro will also be leading the "Related Work", "Experiments" and "Contributions" sections of the final project report. 
-
-*| Sections required on final project: |*
-*| 0. Abstract |*
-*|1. Introduction |*
-*|2. Related Work (Alvaro) |*
-*|3. Proposed Method |*
-*|4. Experiments (Alvaro) |*
-*|5. Analysis |*
-*|6. Conclusions |*
-*|7. Acknowledgements |*
-*|8. Contributions (Alvaro) |*
-*|9. References (all) |*
-*|10. Appendix (all) |*
+Nevertheless, all team members are expected to support and contribute towards the development of the ML model and writing of the final project paper.  

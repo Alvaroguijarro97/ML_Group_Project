@@ -117,23 +117,23 @@ abortion policies.
 
 **5. Contributions**
 
-You are expected to share the workload evenly, and every group member is
+**You are expected to share the workload evenly, and every group member is
 expected to participate in both the experiments and writing. (As a
 group, you only need to submit one proposal and one report, though. So
 you need to work together and coordinate your efforts.)
 
-Clearly indicate what computational and writing task each member of your
+**Clearly indicate what computational and writing task each member of your
 group will be participating in.
 
-*| Sections required on final project:
-*| 0. Abstract
-*|1. Introduction
-*|2. Related Work (Alvaro)
-*|3. Proposed Method
-*|4. Experiments (Alvaro)
-*|5. Analysis
-*|6. Conclusions
-*|7. Acknowledgements
-*|8. Contributions (Alvaro)
-*|9. References (all)
+*| Sections required on final project: |*
+*| 0. Abstract |*
+*|1. Introduction |*
+*|2. Related Work (Alvaro) |*
+*|3. Proposed Method |*
+*|4. Experiments (Alvaro) |*
+*|5. Analysis |*
+*|6. Conclusions |*
+*|7. Acknowledgements |*
+*|8. Contributions (Alvaro) |*
+*|9. References (all) |*
 *|10. Appendix (all) |*

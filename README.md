@@ -95,7 +95,7 @@ the questions and structures for the Atlas.
   - INTERNATIONAL STANDARDS: Antonella Lavelanet, WHO
   - YOUTH: Lili Steffen, Y Safe
   - PROJECT PARTNERS: Neil Datta / Marina Davidashvili, EPF, Caroline Hickson / Irene Donadio / 
-Lena Luyckfasseel, IPPF EN
+Lena Luyckfasseel, IPPF EN" (from Atlas PDF itself)
 - an overall score on a scale from 0-100 composed of four sections with several sub-categories:
   - "ACCESS",
   - "LEGAL STATUS OF ABORTION CARE",

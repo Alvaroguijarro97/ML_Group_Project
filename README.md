@@ -19,8 +19,6 @@ We expect a number of factors to potentially play a role when it comes to increa
 We intend to cover these effects on our dependent variable - the share of abortions performed on foreigners on
 overall population per state in proportion to the share of foreign population on overall population per state - in our model by combining a number of different data sets, as explained in greater detail further below. We hope to train our model based on a sample of roughly 100.000 abortions performed in Germany in the year 2021. Given the size of our sample and the nature of our research interest, we are confident that we can build a SGD classifier model that distinguishes between "foreign" and "domestic" abortions. 
 
-Next: Continue on how we  do that
-
 Especially within the Schengen Area, citizens of countries with (more) restrictive abortion policies might travel across borders to receive abortion treatment in (more) permissive neighboring states. Abortion
 policies of one country would thereby have an influence on abortion numbers in neighboring countries as well. We intend to shine a light on such effects by looking at data for the German states: Given for
 instance the strict regulation of abortions in Poland, a possible

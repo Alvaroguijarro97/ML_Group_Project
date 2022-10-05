@@ -11,6 +11,31 @@ When discussing related work, do not forget to include appropriate references.  
 
 The three of us are really interested in current health policies and we found some interesting datasets regarding abortion numbers on the state-level within Germany. We believe that based on this data, we can contribute to finding answers regarding cross country abortion travel. Especially within the Schengen Area, citizens of countries with (more) restrictive abortion policies might travel across borders to receive abortion treatment in (more) permissive neighboring states. Abortion policies of one country would thereby have an influence on abortion numbers in neighboring countries as well. We intend to shine a light on such effects by looking at data for the German states: Given for instance the strict regulation of abortions in Poland, a possible finding in line with the described assumption could be higher numbers of abortions performed on foreigners in German states close by Polish border. Quantifying such cross-border effects could as well help assessing the effectiveness of Schengen countries´ attempts to keep control over their abortion policies.
 
+Dependent Variable:
+  Share of Abortions performed on foreigners on overall population per state
+        in proportion to:
+  Share of foreign population on overall population per state
+
+Research questions:
+	- Is there a over-proportionally big share of abortions performed on foreigeners in some states?
+	- Classification approach: Is a given abortion (based on the input data/independent variables) predicted to be       classified by our model to be performed on a foreigner or a German?
+	- Binary classification: foreigner/German abortion
+
+Independent Variables:
+	- Proximity of neighboring countries (geographical distance)
+		○ Including restrictiveness of respective countries (using abortion atlas scores)
+	- Foreign population per state (share of overall population)
+		○ Including restrictiveness of respective countries (using abortion atlas scores)
+		○ Interesting to estimate effect of foreigners permanently living in the state vs. people temporarily migrating for the abortion
+			§ Maybe even negative effect? People like going to their country of origin for their abortion?
+		○ Interesting for network effects (foreigners going for their abortion to states where they have relatives/social network)
+		○ If feasible/possible: Control for share of female between 12-50 years
+	- Population with a migrant background per state (no fitting data found yet)
+		○ Including restrictiveness of respective countries (using abortion atlas scores)
+		○ Interesting for network effects (foreigners going for their abortion to states where they have relatives/social network)
+
+
+
 **2. Motivation**
 
 Describe why your project is interesting. E.g., you can
@@ -22,7 +47,8 @@ learning perspective.
 "Here we should talk about the state of abortion policy in europe in the last couple of years, and see the state of it currently (could use information from the Atlas")
 
 societal relevance:
-- "Europe Abortion Access Project" argues that their project aims to "improve access to safe and legal abortion care throughout Europe. Since we work on a related topic, we can argue the same
+- "Europe Abortion Access Project" argues that their project aims to "improve access to safe and legal abortion care throughout Europe. Since we work on a related topic, we can argue the same:
+    - possible real world use: more restricted policy introduced in country A, country B can anticipate an increase of citizens from country B [in certain states] seeking an abortion. Social actors can prepare by increase social support for this vulnerable group (i.e. Polish speaking women support networks in Eastern German states, anticipating/estimating effect of stricter Polish policies)
 - Foret and Calligaro (2018): "European Values. Challenges and Opportunities for EU Governance" discuss relevance of morality policies "in the institutionalization of the EU as a political order" (from abstract, check on-campus access: https://www.taylorfrancis.com/books/edit/10.4324/9781351037426/european-values-fran%C3%A7ois-foret-oriane-calligaro?refId=61de8daf-e9a8-4437-b02d-adbee4545556&context=ubx)
 - Morality policies as a core of polity´s self-definition (look up source). If Schengen allows to bypass national regulation of abortion policies via cross-country abortion travel, that would undermine the effectiveness of national regulation on the issue beyond self-attribution(?) (needs revision, too strongly put)
 

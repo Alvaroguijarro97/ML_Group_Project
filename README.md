@@ -21,6 +21,27 @@ learning perspective.
 -----
 "Here we should talk about the state of abortion policy in europe in the last couple of years, and see the state of it currently (could use information from the Atlas")
 
+societal relevance:
+- "Europe Abortion Access Project" argues that their project aims to "improve access to safe and legal abortion care throughout Europe. Since we work on a related topic, we can argue the same
+- Foret and Calligaro (2018): "European Values. Challenges and Opportunities for EU Governance" discuss relevance of morality policies "in the institutionalization of the EU as a political order" (from abstract, check on-campus access: https://www.taylorfrancis.com/books/edit/10.4324/9781351037426/european-values-fran%C3%A7ois-foret-oriane-calligaro?refId=61de8daf-e9a8-4437-b02d-adbee4545556&context=ubx)
+- Morality policies as a core of polity´s self-definition (look up source). If Schengen allows to bypass national regulation of abortion policies via cross-country abortion travel, that would undermine the effectiveness of national regulation on the issue beyond self-attribution(?) (needs revision, too strongly put)
+
+
+research relevance:
+- "Europe Abortion Access Project" states on their research website that the "phenomenon [of cross-country abortion travel] remains poorly understood" and needs for further quantitative and qualitative study:
+"Many European women are known to travel to seek abortions outside and/or within the borders of their country of residency, including from countries with relatively liberal abortion laws, which are the main focus of this study. As this phenomenon remains poorly understood, this research project makes a conscious effort to unravel the complex reasons behind decisions to travel in order to obtain abortion care, by exploring women’s experiences when travelling to seek treatment. Data collected annually by the Department of Health of England and Wales (2017) indicate that 4810 abortions were performed for non-residents in the UK in 2016. We learned from our 2014-2015 pilot study that women from 14 countries came to the UK to seek abortion care, with Italian and French women representing the most numerous groups (Gerdts et al 2016). Data from the Netherlands (Rutgers, 2016) similarly show that almost 3000 women travelled there to seek abortion care in 2014, mainly from France, Germany and Belgium. Further quantitative and qualitative data are needed to fully understand the experiences of women who travel to seek abortion care within Europe."
+(accessed on October 5 2022, section "journeys": https://europeabortionaccessproject.org/#what)
+- project developed in German context could be systematically expanded to include data from more (future) years, expand to more European countries, create model to estimate of cross-country abortion travel within the European Union and estimate for example the impact of a changing national legislation as reflected in the abortion atlas 
+
+learning perspective:
+- big data set (ca. 100.000 abortions in Germany per year), combining different data sets, distinction of abortion on German/abortion on foreigner allows to explore a classification model
+- interest in Health policies, first step in applying ML knowledge to policy analysis in this field
+- combining different types of data sources, practicing how to handle different tyoes of data sources:
+    - policy atlas to be read out
+    - big data sets/ census and abortion data
+    - creation of distance/geographic variables
+- getting an impression on how well data sources from European multi-level governance system (in this case: state, country, EU) can be combined in order to gain insights
+
 **4. Evaluation**
 
 What would the successful outcome of your project look
@@ -32,6 +53,12 @@ from a technical standpoint?
 **5. Resources**
 
 What resources are you going to use (datasets, computer hardware, computational tools, etc.)?
+
+Data Sets
+1. The European Abortion Policies Atlas-September 2021 (https://www.epfweb.org/node/857)
+2. Abortion Statistics for Germany: Genesis (statistisches Bundesamt) ID: 233110006
+3. Foreign population: Ausländer: Bundesländer, Stichtag, Geschlecht, Altersjahre,
+Ländergruppierungen/Staatsangehörigkeit. Genesis (statistisches Bundesamt) ID: 12521-0022 (https://www-genesis.destatis.de/genesis/online#astructure)
 
 -----
 

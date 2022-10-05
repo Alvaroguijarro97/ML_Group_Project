@@ -77,7 +77,8 @@ The Europe Abortion Access Project writes on its research website that the pheno
 
 **possible real world use**:
 
-- Morality policies as a core of polity´s self-definition (look up source). If Schengen allows to bypass national regulation of abortion policies via cross-country abortion travel, that would undermine the effectiveness of national regulation on the issue beyond self-attribution(?) (needs revision, too strongly put)                                                                                                                                    
+- Morality policies as a core of polity´s self-definition (look up source). If Schengen allows to bypass national regulation of abortion policies via cross-country abortion travel, that would undermine the effectiveness of national regulation on the issue beyond self-attribution(?) (needs revision, too strongly put)
+
 **Learning perspective**:
 
 In terms of our own academic progress, our motivation is that we hope to get a sense of how well data sources from the European multi-level governance system (in this case: state, country, EU) can be combined in order to gain insights Furthermore, our team shares an interest in health policy. This project thus allows us to take the first step towards applying our newly learned machine learning skills to policy analysis in this area.

@@ -46,27 +46,28 @@ Dependent Variable: Share of Abortions performed on foreigners on
 overall population per state in proportion to: Share of foreign
 population on overall population per state
 
-Independent Variables: - Proximity of neighboring countries
-(geographical distance) - Including restrictiveness of respective
-countries (using abortion atlas scores) - Foreign population per state
-(share of overall population) - Including restrictiveness of respective
-countries (using abortion atlas scores) - Interesting to estimate effect
-of foreigners permanently living in the state vs. people temporarily
-migrating for the abortion - Maybe even negative effect? People like
-going to their country of origin for their abortion? - Interesting for
-network effects (foreigners going for their abortion to states where
-they have relatives/social network) - If feasible/possible: Control for
-share of female between 12-50 years - Population with a migrant
-background per state (no fitting data found yet) - Including
-restrictiveness of respective countries (using abortion atlas scores) -
-Interesting for network effects (foreigners going for their abortion to
-states where they have relatives/social network)
+Independent Variables:
 
-Research questions: - Is there a over-proportionally big share of
-abortions performed on foreigeners in some states? - Classification
+- Proximity of neighboring countries (geographical distance)
+- Including restrictiveness of respective countries (using abortion atlas scores)
+- Foreign population per state (share of overall population)
+- Including restrictiveness of respective countries (using abortion atlas scores)
+- Interesting to estimate effect of foreigners permanently living in the state vs. people temporarily migrating for the abortion
+- Maybe even negative effect? People like going to their country of origin for their abortion?
+- Interesting for network effects (foreigners going for their abortion to states where they have relatives/social network)
+- If feasible/possible: Control for share of female between 12-50 years
+- Population with a migrant background per state (no fitting data found yet)
+- Including restrictiveness of respective countries (using abortion atlas scores)
+- Interesting for network effects (foreigners going for their abortion to states where they have relatives/social network)
+
+Research questions:
+- Is there a over-proportionally big share of
+abortions performed on foreigeners in some states?
+- Classification
 approach: Is a given abortion (based on the input data/independent
 variables) predicted to be classified by our model to be performed on a
-foreigner or a German? - Binary classification: foreigner/German
+foreigner or a German?
+- Binary classification: foreigner/German
 abortion
 
 Model used: SGD Classifier (TBA)

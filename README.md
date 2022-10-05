@@ -103,8 +103,9 @@ The questions and structures for the Atlas were designed by a group of experts i
 
 The data set concerning abortions of the Federal Statistical Office contains information at the level of the Federal Länder on abortions performed annually, subdivided into the individual quarters. Furthermore, information on the origin of the patient is listed for the individual procedures, whereby a distinction is made between the various federal states and the category "foreigners". The dataset contains information for all 16 federal states with an annual number of about 100,000 abortions performed in Germany from 1996 up to 2021.
 
-3. [Foreign population: Ausländer: Bundesländer, Stichtag, Geschlecht, Altersjahre, Ländergruppierungen/Staatsangehörigkeit. Genesis (statistisches Bundesamt) ID: 12521-0022](<https://www-genesis.destatis.de/genesis/online#astructure>)
-- contains (among others) annual information on the share and composition of foreigners among the population of each German state.
+3. [Foreigner statistics of the Federal Statistical Office ID: 12521-0022](<https://www-genesis.destatis.de/genesis/online#astructure>)
+The statistics on foreigners of the Federal Statistical Office contain different representations of the regional distribution of the foreign population. Among other things, they list the federal states, sex, years of age and
+country groupings/citizenship.
 
 4. [World Cities Database](https://simplemaps.com/data/world-cities): With the help of this database, which contains information like City Name, Longitude, Latitude, Country, State, Region, City Status, Population Density, Population, and Id of more than 4 million unique cities around de world, we will create our own database with the information needed for the European Continent. With this databse we expect to calculate the shortest distance from all of the German State's Capitals (or their biggest city) with the closest city from their neighbouring european countries, in order to determine the distance between said states and countries.
 

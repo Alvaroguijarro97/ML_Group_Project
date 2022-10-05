@@ -117,14 +117,14 @@ abortion policies.
 
 **5. Contributions**
 
-**You are expected to share the workload evenly, and every group member is
+You are expected to share the workload evenly, and every group member is
 expected to participate in both the experiments and writing. (As a
 group, you only need to submit one proposal and one report, though. So
 you need to work together and coordinate your efforts.)
 
-**Clearly indicate what computational and writing task each member of your
+Clearly indicate what computational and writing task each member of your
 group will be participating in.
- |-------|
+--------------------------------------------------------------------------------------------------------------------------
 Group member Alvaro Guijarro will be primarely focused on the data wrangling and preprocessing section in the Machile Learning pipeline. In order to costruct an effective ML classification model, we must work with a robust and clean data set, which will be the result of combining different data sources into a unified dataframe. Once this is done, we can later confidently split our data into the necessary training and testing sets. Alongside this tasks, Alvaro will also be leading the "Related Work", "Experiments" and "Contributions" sections of the final project report. 
 
 *| Sections required on final project: |*

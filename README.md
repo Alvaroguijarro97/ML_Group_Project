@@ -94,7 +94,7 @@ What resources are you going to use (datasets, computer hardware, computational 
 *Data Sets*
 
 1. The [European Abortion Policies Atlas-September 2021](<https://www.epfweb.org/node/857>)
-The European Abortion Policies Atlas is a dataset which scores 53 European countries and territories in accordance with their legal frameworks in reference to their access to safe abortion care. The Atlas is an initiative witch is powered by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN).
+The European Abortion Policies Atlas is a data set which scores 53 European countries and territories in accordance with their legal frameworks in reference to their access to safe abortion care. The Atlas is an initiative witch is powered by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN).
 
 The questions and structures for the Atlas were designed by a group of experts in sexual and reproductive health and rights. They came up with an overall score on a scale from 0-100 composed of four sections with several sub-categories: "access", "legal status of abortion care”, "clinical care and service delivery", "information and on-line information"
 

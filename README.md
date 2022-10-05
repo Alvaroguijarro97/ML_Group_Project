@@ -11,7 +11,7 @@ When discussing related work, do not forget to include appropriate references.  
 
 The three of us are really interested in current health policies and we found some interesting datasets regarding abortion numbers on the state-level within Germany. We believe that based on this data, we can contribute to finding answers regarding cross country abortion travel. Especially within the Schengen Area, citizens of countries with (more) restrictive abortion policies might travel across borders to receive abortion treatment in (more) permissive neighboring states. Abortion policies of one country would thereby have an influence on abortion numbers in neighboring countries as well. We intend to shine a light on such effects by looking at data for the German states: Given for instance the strict regulation of abortions in Poland, a possible finding in line with the described assumption could be higher numbers of abortions performed on foreigners in German states close by Polish border. Quantifying such cross-border effects could as well help assessing the effectiveness of Schengen countries´ attempts to keep control over their abortion policies.
 
-**3. Motivation**
+**2. Motivation**
 
 Describe why your project is interesting. E.g., you can
 describe why your project could have a broader societal im-
@@ -42,7 +42,7 @@ learning perspective:
     - creation of distance/geographic variables
 - getting an impression on how well data sources from European multi-level governance system (in this case: state, country, EU) can be combined in order to gain insights
 
-**4. Evaluation**
+**3. Evaluation**
 
 What would the successful outcome of your project look
 like? In other words, under which circumstances would you
@@ -50,7 +50,7 @@ consider your project to be ‘successful’?
 How do you measure success, specific to this project,
 from a technical standpoint?
 
-**5. Resources**
+**4. Resources**
 
 What resources are you going to use (datasets, computer hardware, computational tools, etc.)?
 
@@ -64,7 +64,7 @@ Ländergruppierungen/Staatsangehörigkeit. Genesis (statistisches Bundesamt) ID:
 
 [Abortion statistics](https://www-genesis.destatis.de/) published by the Federal Statistical Office of Germany contain numbers for annual abortions in each state, distinguishing (among others) between abortions performed on foreigners and native population. The European Parliamentary Forum for Sexual and Reproductive Rights developed the [European Abortion Policies Atlas](https://www.epfweb.org/sites/default/files/2021-09/ABORT%20Atlas_EN%202021-v5.pdf), which is an in-depth analysis of abortion policies across Europe. Within their atlas, European countries are ranked based on their policies regarding abortion and abortion care.  Combining this data with [German census data](https://www-genesis.destatis.de/genesis/online?operation=table&code=12521-0021&bypass=true&levelindex=0&levelid=1664271586875#abreadcrumb), we hope to identify driving factors for higher shares of abortions performed on foreigners, checking for variables such as composition of foreign population or proximity to neighboring countries with stricter abortion policies.
 
-**6. Contributions**
+**5. Contributions**
 
 You are expected to share the workload evenly, and every group member is expected to participate in both the experiments and writing. (As a group, you only need to submit one proposal and one report, though. So you need to work together and coordinate your efforts.)
 

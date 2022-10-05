@@ -99,8 +99,7 @@ The European Abortion Policies Atlas is a data set which scores 53 European coun
 The questions and structures for the Atlas were designed by a group of experts in sexual and reproductive health and rights. They came up with an overall score on a scale from 0-100 composed of four sections with several sub-categories: "access", "legal status of abortion care”, "clinical care and service delivery", "information and on-line information"
 
 2. [Abortion Statistics for Germany: Genesis (statistisches Bundesamt) ID: 23311-0006](<https://www-genesis.destatis.de/genesis//online?operation=table&code=23311-0006&bypass=true&levelindex=1&levelid=1664961110565#abreadcrumb>)
-- contains state level information on abortions performed on a annual base (also available by quartal), including (among others) information about the origin of the receiving patient distinguishing between the different states of Germany and category "Foreigner"
-  - contains information for all 16 states with an annual number of about 100.000 abortions performed in Germany.
+The data set concerning abortions of the Federal Statistical Office contains information at the level of the Federal Länder on abortions performed annually, subdivided into the individual quarters. Furthermore, information on the origin of the patient is listed for the individual procedures, whereby a distinction is made between the various federal states and the category "foreigners". The dataset contains information for all 16 federal states with an annual number of about 100,000 abortions performed in Germany from 1996 up to 2021.
 
 3. [Foreign population: Ausländer: Bundesländer, Stichtag, Geschlecht, Altersjahre, Ländergruppierungen/Staatsangehörigkeit. Genesis (statistisches Bundesamt) ID: 12521-0022](<https://www-genesis.destatis.de/genesis/online#astructure>)
 - contains (among others) annual information on the share and composition of foreigners among the population of each German state.

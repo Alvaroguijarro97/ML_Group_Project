@@ -56,7 +56,8 @@ What resources are you going to use (datasets, computer hardware, computational 
 
 Data Sets
 1. The European Abortion Policies Atlas-September 2021 (https://www.epfweb.org/node/857)
-2. Abortion Statistics for Germany: Genesis (statistisches Bundesamt) ID: 233110006
+2. Abortion Statistics for Germany: Genesis (statistisches Bundesamt) ID: 23311-0006
+(https://www-genesis.destatis.de/genesis//online?operation=table&code=23311-0006&bypass=true&levelindex=1&levelid=1664961110565#abreadcrumb)
 3. Foreign population: Ausländer: Bundesländer, Stichtag, Geschlecht, Altersjahre,
 Ländergruppierungen/Staatsangehörigkeit. Genesis (statistisches Bundesamt) ID: 12521-0022 (https://www-genesis.destatis.de/genesis/online#astructure)
 

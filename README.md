@@ -101,11 +101,15 @@ Lena Luyckfasseel, IPPF EN
   - "LEGAL STATUS OF ABORTION CARE",
   - "CLINICAL CARE AND SERVICE DELIVERY",
   - "INFORMATION AND ON-LINE INFORMATION"
+- contains information from September 2021
 2. Abortion Statistics for Germany: Genesis (statistisches Bundesamt) ID: 23311-0006
 (https://www-genesis.destatis.de/genesis//online?operation=table&code=23311-0006&bypass=true&levelindex=1&levelid=1664961110565#abreadcrumb)
+- contains state level information on abortions performed on a annual base (also available by quartal), including (among others) information about the origin of the receiving patient distinguishing between the different states of Germany and category "Foreigner"
+- contains information for all 16 states with an annual number of about 100.000 abortions performed in Germany
 3. Foreign population: Ausländer: Bundesländer, Stichtag, Geschlecht, Altersjahre,
 Ländergruppierungen/Staatsangehörigkeit. Genesis (statistisches Bundesamt) ID: 12521-0022 (https://www-genesis.destatis.de/genesis/online#astructure)
-
+- contains (among others) annual information on the share and composition of foreigners among the population of each German state
+4. TBA: Geographical information on each state in Germany, such as distance to neighboring countries
 -----
 
 [Abortion statistics](https://www-genesis.destatis.de/) published by the Federal Statistical Office of Germany contain numbers for annual abortions in each state, distinguishing (among others) between abortions performed on foreigners and native population. The European Parliamentary Forum for Sexual and Reproductive Rights developed the [European Abortion Policies Atlas](https://www.epfweb.org/sites/default/files/2021-09/ABORT%20Atlas_EN%202021-v5.pdf), which is an in-depth analysis of abortion policies across Europe. Within their atlas, European countries are ranked based on their policies regarding abortion and abortion care.  Combining this data with [German census data](https://www-genesis.destatis.de/genesis/online?operation=table&code=12521-0021&bypass=true&levelindex=0&levelid=1664271586875#abreadcrumb), we hope to identify driving factors for higher shares of abortions performed on foreigners, checking for variables such as composition of foreign population or proximity to neighboring countries with stricter abortion policies.

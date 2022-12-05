@@ -19,28 +19,61 @@ preview: figures/BERTfig3.png
 knitr::opts_chunk$set(echo = FALSE)
 
 # Load dependencies 
-library(reticulate) # For rendering Python code 
+library(reticulate) # For rendering Python code
 ```
 
 ## Abstract
 
-European women face different abortion regimes, depending on their country of residence. Some countries have a more permissive approach to this issue and offer a safer environment to the women in need, but unfortunately, this is not the case everywhere \\cite{EAAP}. Due to that fact, women in many European countries leave their countries of residence and endure cross-border travels in order to obtain better conditions for an abortion in neighboring European countries. However, there is still little scientific understanding of these cross country abortion travels, starting with difficulties to even quantify the phenomenon.
+European women face different abortion regimes, depending on their country of residence. Some countries have a more permissive approach to this issue and offer a safer environment to the women in need, but unfortunately, this is not the case everywhere [^1]. Due to that fact, women in many European countries leave their countries of residence and endure cross-border travels in order to obtain better conditions for an abortion in neighboring European countries. However, there is still little scientific understanding of these cross country abortion travels, starting with difficulties to even quantify the phenomenon.
 
-The paper at hand aims to provide a pioneering approach on how to use machine learning models in order to estimate such abortion travels for the case of Germany. In the case of German States, distance to neighbouring countries, abortion policies in neighbouring countries, the fraction of the population with a migrant background, and the foreign population in the area could be some predictors to identify future pull factors for foreign abortion-seekers to come to Germany, for the procedure. In 2021, there were approximately 100,000 registered abortion procedures performed throughout the 16 federal states, with less than 1,000 registered to be from foreign women.
+The paper at hand aims to provide a pioneering approach on how to use machine learning models in order to estimate such abortion travels for the case of Germany. In the case of German States, distance to neighboring countries, abortion policies in neighboring countries, the fraction of the population with a migrant background, and the foreign population in the area could be some predictors to identify future pull factors for foreign abortion-seekers to come to Germany, for the procedure. In 2021, there were approximately 100,000 registered abortion procedures performed throughout the 16 federal states, with less than 1,000 registered to be from foreign women.
 
 In the process of this research project, balanced and unbalanced Logistic Regression, Random Forrest, and Support Vector Machine classification models are fitted with a combined dataset in order to determine which one was the most accurate at predicting our variables of interest. Out of the three groups of examined variables, the models seem to suggest that the distance to other European countries has a higher incidence in the prediction of whether abortion was performed on a German or a foreign abortion-seeker in a German state.
 
+[^1]: Europe Abortion Access Project (EAAP), 2020.
+
 ## Introduction / Background
 
-The introduction explains the problem, why it's difficult, interesting, or important, how and why current methods succeed/fail at the problem, and explains the key ideas of your approach and results. Though an introduction covers similar material as an abstract, the introduction gives more space for motivation, detail, references to existing work, and to capture the reader's interest.
+There is a lot to be learnt from the Polish abortion laws about morality policies in Europe. Alongside the Irish referendum on gay marriage, or French reforms regarding the country´s regulation of prostitution, it is a recent example of moral issues appearing on the European political agenda. Once these topics appear in the public eye, they are often discussed vigorously: What is at stake is the question of what society we want to live in; what is debated often concerns fundamental values. And even though the EU has been a key factor in understanding political processes in Europe during the last decades, regarding morality policies the Union has remained invisible for most of its existence and was largely ignored by the respective scholar community. This has started to change when scholars began to discuss e.g. the potential of such policies to develop a shared European identity, based on common values.
+
+Despite the scholarly perceived lack of official EU action, several factors make the issue of Europeanized morality policies pressing, and at the core of the research project at hand, there is a functional argument to be made. Open Schengen borders and Europeanization of related policies (like the Directive on Patients’ Rights in Cross-Border Healthcare ) ease the access for European citizens to other morality policy regimes (and i.e., their medical ethical regulation frames): Cross-border patient movements are a fact of our time.
+
+In turn, this means that *national capacities to effectively govern their population can be undermined by the access to more liberal regimes in fellow EU-countries*: If the Polish government further restricts access to abortion care, Polish women will seek this care in more permissive neighboring countries. To quantify this effect however is a difficult task, given the absence of official statistics or border controls, and the desire of abortion-seeking women for discretion. The current project, therefore, proposes to approach in an indirect manner, based on the assumption that, *if a tighter abortion regime in country A causes women to cross borders to seek abortion care in country B, this should result in a higher number of abortions performed on foreigners in country B*.
+
+In line with this thought, we present a Logistic Regression Model for Binary Classification model, Random Forrest Classifier, and a Support Vector Machine Model that predicts labels for abortions regarding whether they were performed on foreigners or members of the national population. The labeling is based on state-level information about abortion policies in neighboring countries, population share with a migrant background, and foreign population in the respective state. Given the feasibility limits in terms of time and data access, this project developed an initial framework based on German data on abortion statistics of the year 2021. The paper concludes with several promising avenues how to expand this approach in future research. 
 
 ## Related Work
 
-This section helps the reader understand the research context of your work, by providing an overview of existing work in the area.
+Arguably the most influential definition[^2] of Morality policies by Mooney establishes that “the important distinction between morality and non-morality policy is that at least a significant minority of citizens has a fundamental, first-principled conflict with the values embodied in some aspect of a morality policy”[^3]. Given this definition, it cannot come as a surprise that even among the divided literature on how to define morality policies[^4], abortion and its regulation can be considered as a common ground: Abortion policies with their high moral stakes are morality policies. 
 
--   You might discuss: papers that inspired your approach, papers that you use as baselines, papers proposing alternative approaches to the problem, papers applying your methods to different tasks, etc.
+Exploring morality policy making in an Europeanized context contributes to a strand of research that is considered to be underrepresented within the respective literature[^5]. This is partly due to the fact that the EU historically focused on the common market and thus, for a long time did not get directly involved with morality policies – that are seen as often non-economic in nature[^6].
+Another crucial limitation comes into play when it comes to studies regarding cross country abortion travels: Abortion seeking women are in general often afraid to be exposed to social stigma and seek discretion. This can be expected to be the case even more so when the respective abortion procedure is illegal in their country of origin. Furthermore, there are no Polish public records on how many citizens seek abortions abroad, nor are there official numbers on the German side on how many Polish women are taken in into German institutions that conduct abortions.
 
--   This section shouldn't go into deep detail in any one paper (for example, there probably shouldn't be any equations) -- instead it should explain how the papers relate to each other, and how they relate to your work.
+Nevertheless, there have been a number of studies on cross country abortion travels. A particuarly valuable contribution comes from the "Europe Abortion Access Project", a coordinated research group between the University of Barcelona and the European Research council. Reviewing the existing literature, the scholars conclude that the purpose of seeking abortion care abroad is a "phenomenon [that] remains poorly understood"[^1]. The researchers argue that the lack of scientific insight in this aspect of European abortion regimes is linked to a general lack of sufficient "quantitative and qualitative data" on the matter. In addition to these few, often ethnographic studies, there are only estimations by NGOs and practicioners. Our research aims to contribute to a closure of this gap by developing a data based model on abortion numbers from 2021 on the state-level within Germany. 
+By aiming to contribute to the body of quantitative studies on cross country abortion travels, this paper therefore aims to model human migration. Given the complexity entailed in the subject of human migration patterns, studies can benefit greatly from the predictive power of computational models.  To understand how an issue as intricate can benefit from using machine learning models, previous attemps to tackle it had to be evaluated first. In "A Machine Learning Approach to Modeling Human Migration" for instance, machine learning is used in order to predict human migration with several exogenous variables such as distance between countries, population of origin and destiny Robinson[^7], etc. Here, the authors used machine learning models to outperform the traditional human mobility models by using “extreme” gradient boosting regression (XGBoost model) and an artificial neural network model (ANN model), which could be later used with hyperparameter tunning in order to obtain more precise predictions. Due to time and especially data limitations described in greater detail further below, these models were not implemented in our project. Instead, this paper focused on wrangling the nececssary data into a form that allow a sumber of basic models that can be further refined subsequently. These basic models showed - even on the very limited data sources at our hands - the potential of applications of classification models in the described context, that should be further explored. 
+
+[^2]: J. M. Permoser. What are morality policies? the politics
+of values in a post-secular world. Political Studies Review,
+17(3): 310–325, 2019.
+[^3]: C. Z. Mooney. The politics of morality policy: Symposium
+editor’s introduction. Policy Studies Journal, 27(4): 675–680,
+1999.
+[^4]: D. T. Studlar and G. J. Burns. Toward the permissive soci-
+ety? morality policy agendas and policy directions in west-
+ern democracies. Policy Sciences, 48(3): 273–291, 2015.
+[^5]: . M. Ayoub. Cooperative transnationalism in contemporary
+europe: Europeanization and political opportunities for lgbt
+mobilization in the european union. European Political Sci-
+ence Review, 5(2):279–310, 2013.,
+P. Ayoub and D. Paternotte. LGBT activism and the making
+of Europe: A rainbow Europe? Springer, 2014.
+[^6]: E.-M. Euchner and I. Engeli. Conflict over values in the eu-
+ropean multilevel space: The case of morality issues. In Eu-
+ropean Values, pages 65–79. Routledge, 2018.,
+M. A. Schwartz and R. Tatalovich. The rise and fall of moral
+conflicts in the united states and canada, 2019.
+[^7]: C. Robinson and B. Dilkina. A machine learning approach
+to modeling human migration, June 2018.
 
 **See below for an example of how to cite related work in Markdown.**
 
@@ -48,9 +81,9 @@ Bidirectional Encoder Representations from Transformers (BERT) have proven succe
 
 **Footnotes and Sidenotes**
 
-You can use footnotes [^1] or sidenotes to elaborate on a concept throughout the paper.
+You can use footnotes [^20] or sidenotes to elaborate on a concept throughout the paper.
 
-[^1]: This is a footnote. You can view this by hovering over the footnote in text.
+[^20]: This is a footnote. You can view this by hovering over the footnote in text.
 
 <aside>This is a side note.</aside>
 

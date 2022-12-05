@@ -11,8 +11,8 @@ repository_url: https://github.com/Alvaroguijarro97/ML_Group_Project
 output: 
   distill::distill_article: 
     self_contained: false
-preview: figures/BERTfig3.png
-#bibliography: bibliography.bib
+preview: distill-template/figures/BERTfig3.png
+bibliography: distill-template/bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -99,7 +99,7 @@ This section details your approach(es) to the problem. For example, this is wher
 **Below is an example of a figure:**
 
 ```{r fig1, eval = TRUE, echo = FALSE, out.width = '100%', fig.cap = "Model architecture"}
-knitr::include_graphics("figures/BERTfig3.png")
+knitr::include_graphics("distill-template/figures/BERTfig3.png")
 ```
 
 ## Experiments

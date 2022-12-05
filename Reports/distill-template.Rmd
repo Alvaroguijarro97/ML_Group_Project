@@ -1,7 +1,7 @@
 ---
-title: "Distill Article Template for NLP Final Report"
+title: "Cross-country abortion travelers in Germany: What “Foreigners” in German abortion statistics can tell us"
 description: |
-  Add a short description of your article here (i.e. "We present a deep learning approach to classifying labeled texts and phrases in party manifestos, using the coding scheme and documents from the Manifesto Project Corpus.")
+  We present a classifier approach in order to estimate abortion travels for the states of Germany (“Bundesländer”). Based on state level information on the three independent variables “distance to neighboring countries”, “population with a migrant background”, and “foreign population”, we attach the labels “foreign” or “German” to abortion cases. For all three variables, we also factor in the level of restriction in the abortion regime of the respective country (country of origin/neighboring country).
 author: 
   - name: Niklas Pawelzik, Alvaro Guijarro May, Justus v. Samson-Himmelstjerna 
     

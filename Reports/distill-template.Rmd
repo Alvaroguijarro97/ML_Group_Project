@@ -3,19 +3,16 @@ title: "Distill Article Template for NLP Final Report"
 description: |
   Add a short description of your article here (i.e. "We present a deep learning approach to classifying labeled texts and phrases in party manifestos, using the coding scheme and documents from the Manifesto Project Corpus.")
 author: 
-  - name: Allison Koh 
-    url: https://allisonkoh.github.io
-  - name: Second Author 
+  - name: Niklas Pawelzik, Alvaro Guijarro May, Justus v. Samson-Himmelstjerna 
+    
 date: "`r Sys.Date()`" 
-categories: 
-  - Natural Language Processing 
 creative_commons: CC BY
-repository_url: https://github.com/allisonkoh/distill-template/
+repository_url: https://github.com/Alvaroguijarro97/ML_Group_Project
 output: 
   distill::distill_article: 
     self_contained: false
 preview: figures/BERTfig3.png
-bibliography: bibliography.bib
+# bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -27,7 +24,11 @@ library(reticulate) # For rendering Python code
 
 ## Abstract
 
-An abstract should concisely (less than 300 words) motivate the problem, describe your aims, describe your contribution, and highlight your main finding(s).
+European women face different abortion regimes, depending on their country of residence. Some countries have a more permissive approach to this issue and offer a safer environment to the women in need, but unfortunately, this is not the case everywhere \\cite{EAAP}. Due to that fact, women in many European countries leave their countries of residence and endure cross-border travels in order to obtain better conditions for an abortion in neighboring European countries. However, there is still little scientific understanding of these cross country abortion travels, starting with difficulties to even quantify the phenomenon.
+
+The paper at hand aims to provide a pioneering approach on how to use machine learning models in order to estimate such abortion travels for the case of Germany. In the case of German States, distance to neighbouring countries, abortion policies in neighbouring countries, the fraction of the population with a migrant background, and the foreign population in the area could be some predictors to identify future pull factors for foreign abortion-seekers to come to Germany, for the procedure. In 2021, there were approximately 100,000 registered abortion procedures performed throughout the 16 federal states, with less than 1,000 registered to be from foreign women.
+
+In the process of this research project, balanced and unbalanced Logistic Regression, Random Forrest, and Support Vector Machine classification models are fitted with a combined dataset in order to determine which one was the most accurate at predicting our variables of interest. Out of the three groups of examined variables, the models seem to suggest that the distance to other European countries has a higher incidence in the prediction of whether abortion was performed on a German or a foreign abortion-seeker in a German state.
 
 ## Introduction / Background
 
@@ -65,7 +66,7 @@ This section details your approach(es) to the problem. For example, this is wher
 **Below is an example of a figure:**
 
 ```{r fig1, eval = TRUE, echo = FALSE, out.width = '100%', fig.cap = "Model architecture"}
-knitr::include_graphics("figures/BERTfig3.png")
+#knitr::include_graphics("figures/BERTfig3.png")
 ```
 
 ## Experiments

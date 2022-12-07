@@ -102,17 +102,7 @@ With the data at our hands, there is no feasible way around this problem: the in
 **Google Colab** was used as the main python coding cloud app. It gave us access to runtimes of up to 12 hours of Google Compute Engines's GPU and TPU in order to run our python code. [@Google]
 
 ### Evaluation method
-For the different machine learning models, we are using a balanced version of the **Accuracy score**, that takes into account the uneven class distribution of our sample,  **Confusion Matrix**, **Receiver Operating Characteristic (ROC) Curves**, and **F1 Score** to evaluate our results [@Evaluating].
-
-
-
-**Accuracy** is used in order to compute how many times the classifier was right (when predicted and actual value are the same) and divide it by the number of samples in the training set.
-
-The **Confusion Matrix** is used in order to visualize the results of the prediction model. Here we can observe the True Positives, False Positives, False negatives, and True Negatives our model has produced with its current configuration. 
-
-The *receiver operating characteristic* (**ROC**) curve plots the true positive rate against the false positive rate (ratio of negative instances that are falsely classified as positive instances) [@Géron]. This metric can help select a threshold for a classifier, looking to maximize true positives as well as minimize false positives. 
-
-Lastly, the **F1** score is used as a metric to evaluate the precision and recall of a prediction model. A good F1 score would mean that a model has low false positives and low false negatives. 
+For the different machine learning models, we are using a balanced version of the **Accuracy score**, that takes into account the uneven class distribution of our sample,  **Confusion Matrix**, **Receiver Operating Characteristic (ROC) Curves**, and **F1 Score** to evaluate our results [@Evaluating]. The ROC helped us to generate a ratio of negative instances that are falsely classified as positive instances [@Géron], while a good F1 score would mean that a model has low false positives and low false negatives. since we wehre not able to generate sufficient F1 scores we decided to have a closer look at the top 15 most important features and compute the feature importance for each class separately.
 
 ### Experimental details
 Due to the great data unbalance present in our dataset, initially we had to optmize the class weights based on the distribution of our Y variable, so that the model would give more importance to the least common class. The optimized values of these weights are calculated in the internal "class\_weight" function in all of the evaluated models. Using parameter tunning, the optimal number for max\_iter of 1500, which is the maximum number of iterations needed for the Logistic Regression Model to converge, was found between the values of (500, 1000, 1500, 2000). This value allows us to run the model  maintaining the most efficient computational cost.

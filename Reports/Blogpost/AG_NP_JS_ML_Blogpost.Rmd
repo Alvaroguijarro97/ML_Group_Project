@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # Load dependencies 
 library(reticulate) # For rendering Python code
 ```
-
+\newpage
 ## Problem Introduction
 
 There is a lot to be learnt from the Polish abortion laws about European morality policies. Morality policies are matters on which “at least a significant minority of citizens has a fundamental, first-principled conflict with the values embodied” [@Mooney], with abortion policies clearly constituting a textbook example. Despite its great overall impact on European politics, regarding morality policies, the European Union has remained mostly invisible;
@@ -31,6 +31,8 @@ and morality policy-making in a Europeanized context is an underrepresented stra
 To quantify this effect, however, is a difficult task, given the absence of official statistics or border controls, and the desire of abortion-seeking women for discretion. The current project, therefore, proposes to approach in an indirect manner, based on the assumption that, *if a tighter abortion regime in country A causes women to cross borders to seek abortion care in country B, this should result in a higher number of abortions performed on foreigners in country B*. Reviewing the literature in the field, researchers of the "Europe Abortion Access Project" conclude that the purpose of seeking abortion care abroad is a "phenomenon [that] remains poorly understood" [@EAAP]. They argue that the lack of scientific insight in this aspect of European abortion regimes is linked to a general lack of sufficient "quantitative and qualitative data" on the matter.
 
 In line with these thoughts, we present a Logistic Regression Model for Binary Classification, a Random Forrest Classifier, and a Support Vector Machine Model that predict labels for abortions - regarding whether they were performed on foreigners or members of the national population. The labeling is based on state-level information about the distance to neighboring countries, about the population share with a migrant background, and about the foreign population in the respective state. For all three variables, in addition the restrictiveness of the respective country is factored in. Given the feasibility limits in terms of time and data access, this project developed an initial framework based on German data on abortion statistics of the year 2021. We conclude with several promising avenues how to expand this approach in future research.
+
+\newpage
 
 ## Data
 
@@ -60,6 +62,8 @@ In order to calculate the distances between the 16 German States and the differe
 [^4]: https://www.bamf.de/DE/Themen/Forschung/Veroeffentlichungen/Migrationsbericht2020/PersonenMigrationshintergrund/personenmigrationshintergrund-node.html
 [^5]: https://simplemaps.com/data/world-cities
 
+\newpage
+
 ## Proposed Method
  
 The data available to us contains information on abortions per year per state. It distinguishes 'foreign' abortion-seekers ( without further information on the distribution of countries of origin), which enables us to create a binary classification that distinguishes between 'foreign' and 'local'. Independent variables can be used to enable a Logistic Regression Model (LRM) and a Random Forrest Classifier (RFC) to estimate the probability that an event belongs to a specific class. In LRM, a statistical approach is used for classification problems and is used when the dependent variable (target) is categorical.  The probability of an event being of the intended class (binomial in this case) is calculated by the fitted model, trained with a portion of the available data, and if the probability is under or over a set threshold, the model will assign the corresponding class. On the other hand, the RFC will generate the most frequent answer to several  decision trees built with a random subset of features in order to select  the predicted class.
@@ -76,10 +80,10 @@ Lastly, in order to better compare our results from Logistic Regression Model an
 
 As expected, our unweighted models would not be able to predict the minority class, since we knew that our data was heavily skewed and therefore, unbalanced. At a first glance, however, all weighted and balanced models yielded better results than we expected since the accuracy score for all of our weighted models were in the high 80s, which were promising high explanatory values. However, since accuracy is not a great measure of classifier performance when the classes are imbalanced, we also generated the area under the Receiver Operating Characteristic (ROC) Curve, measuring the overall summary of diagnostic accuracy. Since the AUC equals 0.5 when the ROC curve corresponds to random chance and 1.0 for perfect accuracy, we were quite content at first with our results in the high 80s and low 90s. However, as soon as we looked at our F1 Scores, as well as the feature importance of our model, we realized that these values did not measure the performance of our models accurately.
 
-```{r fig3, eval = TRUE, echo = FALSE, out.width = '100%', fig.cap = "Results of Evaluated Models"}
+```{r fig3, eval = TRUE, echo = FALSE, out.width = '75%', fig.align='center', fig.cap = "Results of Evaluated Models"}
 knitr::include_graphics("graphics/Models_Results.png")
 ```
-```{r fig4, eval = TRUE, echo = FALSE, out.width = '60%', fig.cap = "Confusion Matrix of Random Forrest Classifier (weighted)"}
+```{r fig4, eval = TRUE, echo = FALSE, out.width = '50%', fig.align='center', fig.cap = "Confusion Matrix of Random Forrest Classifier (weighted)"}
 knitr::include_graphics("graphics/CM_Random_Forest_Classifier_(weighted).png")
 ```
 
@@ -89,11 +93,15 @@ The poor performance of our model on these metrics shows that the low number of 
 
 We, therefore, consider the current state of our project a partial success nevertheless, given that we detected the hidden performance issues, and were able to identify and explain the issue as outlined in the analysis below. This in turn allowed us to identify clear strategies for solutions and further expansions in more resourceful project settings in the conclusive remarks.
 
+\newpage
+
 ## Analysis
 
 The particularities of our data discussed in earlier chapters are reflected in the results our models produce. Given the extreme imbalance of our data, unbalanced models behave essentially like dummy models: Aiming for high accuracy scores, they label every abortion as domestic without exception. This results in accuracy scores that are logically equal to the class distribution: less than 1\% of our data represents abortions performed on foreigners, thus labeling every abortion as domestic is a successful strategy in more than 99\% of the cases. In order to produce meaningful results, however, we have to focus on foreign abortions: Mislabeled German (domestically performed) abortions are less problematic than mislabeled foreign abortions. Our balanced models have more explanatory power because they can provide precisely this added value in comparison to the unbalanced classifiers. Following this focus on labeling foreign abortions, our preliminary factor analysis becomes relevant: While keeping the flaws of our models in mind, the most important factors among the interaction terms are pointing in a clear direction: 13 of the 15 most important independent variables are distance-based, if one considers predictive power for abortions on foreigners. Even though these insights must be taken with caution, they are in line with the initial intuition: Proximity to neighboring countries in combination with the level of restrictiveness within these countries´ abortion regimes is a strong predictor for a high number of foreign abortions.
 
 Going back to the our starting assumption, this comes as no surprise: Berlin and Brandenburg, the closest states to Poland (a country with highly restrictive policies), have the highest number of foreign abortion seekers within Germany. States with big communities of Polish foreigners or Germans with Polish migrant backgrounds, however, such as North Rhine Westphalia, do not show higher numbers for abortions performed on foreigners, both in absolute and relative numbers. These two independent variables, people with migrant backgrounds and foreigners, seem to play only a minor role in explaining the cases of abortions performed on foreigners. While the data included needs to be expanded and diversified, there is a clear trend regarding what matters when it comes to explaining abortions performed on foreigners: proximity to neighboring countries and the degree of restrictiveness of their respective abortion regimes.
+
+\newpage
 
 ## Conclusion
 

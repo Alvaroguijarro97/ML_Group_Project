@@ -116,10 +116,10 @@ In order to better compare our results from Logistic Regression Model and the Ra
 ### Results
 After running the different model versions, we obtained the following results:
 
-```{r fig3, eval = TRUE, echo = FALSE, out.width = '100%', fig.cap = "Results of Evaluated Models"}
+```{r fig3, eval = TRUE, echo = FALSE, out.width = '50%', fig.cap = "Results of Evaluated Models"}
 knitr::include_graphics("graphics/Models_Results.png")
 ```
-```{r fig4, eval = TRUE, echo = FALSE, out.width = '100%', fig.cap = "Confusion Matrix of Random Forrest Classifier (weighted)"}
+```{r fig4, eval = TRUE, echo = FALSE, out.width = '50%', fig.cap = "Confusion Matrix of Random Forrest Classifier (weighted)"}
 knitr::include_graphics("graphics/CM_Random_Forest_Classifier_(weighted).png")
 ```
 All of the confusion matrixes look like the weighted Random Forrest Classifier model. Models that include computanionally generated weights assign both labels, and with more than 40.000 abortions correctly predicted as performed on Germans, more than 80\% of the labels per class were attached correctly. Thanks to the weights attached to the classes, in a similar manner more than 80\% of the almost 300 abortions performed on foreigners were correctly predicted. Given that all of our variable opreate exclusively on the state-level, we consider this explanatory capacity of 80\% per class of our models a great success, especially compared to their unweighted counter parts.

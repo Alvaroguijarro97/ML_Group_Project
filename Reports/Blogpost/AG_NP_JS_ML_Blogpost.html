@@ -1603,11 +1603,7 @@ The questions and structures for the Atlas were designed by a group of experts i
 <p><strong>GitHub</strong> was used as the source code management software, used to host git repositories, store differente copies and version, and allow collaborative work between team members. <span class="citation" data-cites="GitHub">(<a href="#ref-GitHub" role="doc-biblioref">GitHub, Inc 2008</a>)</span></p>
 <p><strong>Google Colab</strong> was used as the main python coding cloud app. It gave us access to runtimes of up to 12 hours of Google Compute Engines’s GPU and TPU in order to run our python code. <span class="citation" data-cites="Google">(<a href="#ref-Google" role="doc-biblioref">Google Research 2017</a>)</span></p>
 <h3 id="evaluation-method">Evaluation method</h3>
-<p>For the different machine learning models, we are using a balanced version of the <strong>Accuracy score</strong>, that takes into account the uneven class distribution of our sample, <strong>Confusion Matrix</strong>, <strong>Receiver Operating Characteristic (ROC) Curves</strong>, and <strong>F1 Score</strong> to evaluate our results <span class="citation" data-cites="Evaluating">(<a href="#ref-Evaluating" role="doc-biblioref">Jordan 2017</a>)</span>.</p>
-<p><strong>Accuracy</strong> is used in order to compute how many times the classifier was right (when predicted and actual value are the same) and divide it by the number of samples in the training set.</p>
-<p>The <strong>Confusion Matrix</strong> is used in order to visualize the results of the prediction model. Here we can observe the True Positives, False Positives, False negatives, and True Negatives our model has produced with its current configuration.</p>
-<p>The <em>receiver operating characteristic</em> (<strong>ROC</strong>) curve plots the true positive rate against the false positive rate (ratio of negative instances that are falsely classified as positive instances) <span class="citation" data-cites="Géron">(<a href="#ref-Géron" role="doc-biblioref">Géron 2019</a>)</span>. This metric can help select a threshold for a classifier, looking to maximize true positives as well as minimize false positives.</p>
-<p>Lastly, the <strong>F1</strong> score is used as a metric to evaluate the precision and recall of a prediction model. A good F1 score would mean that a model has low false positives and low false negatives.</p>
+<p>For the different machine learning models, we are using a balanced version of the <strong>Accuracy score</strong>, that takes into account the uneven class distribution of our sample, <strong>Confusion Matrix</strong>, <strong>Receiver Operating Characteristic (ROC) Curves</strong>, and <strong>F1 Score</strong> to evaluate our results <span class="citation" data-cites="Evaluating">(<a href="#ref-Evaluating" role="doc-biblioref">Jordan 2017</a>)</span>. The ROC helped us to generate a ratio of negative instances that are falsely classified as positive instances <span class="citation" data-cites="Géron">(<a href="#ref-Géron" role="doc-biblioref">Géron 2019</a>)</span>, while a good F1 score would mean that a model has low false positives and low false negatives. since we wehre not able to generate sufficient F1 scores we decided to have a closer look at the top 15 most important features and compute the feature importance for each class separately.</p>
 <h3 id="experimental-details">Experimental details</h3>
 <p>Due to the great data unbalance present in our dataset, initially we had to optmize the class weights based on the distribution of our Y variable, so that the model would give more importance to the least common class. The optimized values of these weights are calculated in the internal “class_weight” function in all of the evaluated models. Using parameter tunning, the optimal number for max_iter of 1500, which is the maximum number of iterations needed for the Logistic Regression Model to converge, was found between the values of (500, 1000, 1500, 2000). This value allows us to run the model maintaining the most efficient computational cost.</p>
 <p>Since our dataset contains numeric variable values that are different in scale within our X values we decided to perform a standardization to have a common scale while building our machine learning model. Due to the fact that the most popular techniques for scaling numerical data prior to modeling is the StandardScaler we decided to start with that for our base line model. Because machine learning models learn from combining input variables to an output variable, differences in the scales across input variables may increase the difficulty of the problem being modeled.</p>
@@ -1617,7 +1613,7 @@ The questions and structures for the Atlas were designed by a group of experts i
 <p>After running the different model versions, we obtained the following results:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="figure"><span style="display:block;" id="fig:fig3"></span>
-<img src="graphics/Models_Results.png" alt="Results of Evaluated Models" width="100%" />
+<img src="graphics/Models_Results.png" alt="Results of Evaluated Models" width="50%" />
 <p class="caption">
 Figure 1: Results of Evaluated Models
 </p>
@@ -1625,7 +1621,7 @@ Figure 1: Results of Evaluated Models
 </div>
 <div class="layout-chunk" data-layout="l-body">
 <div class="figure"><span style="display:block;" id="fig:fig4"></span>
-<img src="graphics/CM_Random_Forest_Classifier_(weighted).png" alt="Confusion Matrix of Random Forrest Classifier (weighted)" width="100%" />
+<img src="graphics/CM_Random_Forest_Classifier_(weighted).png" alt="Confusion Matrix of Random Forrest Classifier (weighted)" width="50%" />
 <p class="caption">
 Figure 2: Confusion Matrix of Random Forrest Classifier (weighted)
 </p>

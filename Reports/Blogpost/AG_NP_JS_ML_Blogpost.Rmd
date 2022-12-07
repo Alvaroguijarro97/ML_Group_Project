@@ -102,7 +102,9 @@ With the data at our hands, there is no feasible way around this problem: the in
 **Google Colab** was used as the main python coding cloud app. It gave us access to runtimes of up to 12 hours of Google Compute Engines's GPU and TPU in order to run our python code. [@Google]
 
 ### Evaluation method
-For the different machine learning models, we are using **Accuracy score**, **Confusion Matrix**, **Receiver Operating Characteristic (ROC) Curves**, and **F1 Score** to evaluate our results [@Evaluating].
+For the different machine learning models, we are using a balanced version of the **Accuracy score**, that takes into account the uneven class distribution of our sample,  **Confusion Matrix**, **Receiver Operating Characteristic (ROC) Curves**, and **F1 Score** to evaluate our results [@Evaluating].
+
+
 
 **Accuracy** is used in order to compute how many times the classifier was right (when predicted and actual value are the same) and divide it by the number of samples in the training set.
 

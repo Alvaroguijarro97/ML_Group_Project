@@ -33,26 +33,25 @@ In line with these thoughts, we present a Logistic Regression Model for Binary C
 
 ## Data
 
-1. **Abortions by foreign and local populations in the Germany.**
+1.	**Abortions by foreign and local populations in Germany in 2021** 
 
-The Federal Statistical Office of Germany published a data set containing information on abortions performed annually at the federal level. This data is subdivided into each respective annual quarter. Furthermore, information on the origin of the patient is listed for the individual procedures, whereby a distinction is made between the various federal states and the category "foreigners". The dataset contains information for all 16 federal states with an annual number of about 100,000 abortions performed in Germany from 1996 up to 2021. We have wrangeld that data in such a way, that we are able to access for each federal state within Germany the fraction of foreign abortions in comparison to the abortions performed overall within Germany [^1].
+The German Statistical Office annually publishes data on abortions performed annually at the federal level. The office furthermore offers information on the origin of the abortion seeker, distinguishing between the 16 German states and a 17th category, “foreign”. Furthermore, information on the origin of the patient is listed for the individual procedures, whereby a distinction is made between the various federal states and the category "foreigners". The dataset contains information for all 16 federal states with about 100,000 abortions in all of Germany in 2021 [^1].
 
-2. **Abortion Index Score of European Countries.**
+2.	**Abortion Index Score of European Countries** 
 
-This Index is an initiative by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN). It is an in-depth analysis of abortion policies for the Year 20221 across Europe, which scores 53 European countries and territories in accordance with their respective legal frameworks in reference to their access to safe abortion care.
-The questions and structures for the Atlas were designed by a group of experts in sexual and reproductive health and rights. They came up with an overall score on a scale from 0-100 composed of four sections with several sub-categories: "access", "legal status of abortion care”, "clinical care and service delivery", and "information and online information". Since this data set is only published as a PDF-Document, so we needed to extract the data points. Next, we filtered the data for rows and columns that held significance in the given context and created a dataframe that could be compared to our other data [^2].
+This Index is an initiative by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN). In its in-depth analysis of European abortion policies for the Year 2021, 53 European countries and territories are scored on a scale from 0-100, based on the sub-categories "access", "legal status of abortion care”, "clinical care and service delivery", and "information and online information" [^2].
 
-3. **Foreign Population Distribution of German States.**
+3.	**Foreign Population within German States** 
 
-The statistics on foreigners registered in Germany done by the Federal Statistical Office contain different representations of the regional distribution of the foreign population. Among other things, they list the federal states, sex, years of age and country groupings/citizenship. With the help of this dataset, we hope to identify driving factors for higher shares of abortions performed on foreigners, checking for variables such as the composition of foreign populations in comparison to the proximity to neighbouring countries with stricter abortion policies [^3].
+The Federal Statistical Office publishes statistics on foreigners registered in Germany with state-level information on, among other things, their sex, years of age and country of origin [^3].
 
-4. **German Population with migrant background in the German States.**
+4.	 **Germans with migrant background within German States** 
 
-The Federal Office for Migration and Refugees conceived in 2020 a census on a representation basis (Mikrozensus) to approximately identify the different migrant groups German citizens have as background, derived from the country of origin of their respondents or parents.  For each of the federal states in Germany, this dataset contains the number of citizens that have a migrant background from one of the EU 27 countries, and only the most significant groups were kept for further research since some migrant population groups were so small that their share in the overall population of the state was negligible [^4].
+The so-called “Mikrozensus” of 2020, a census on a representation basis, provides estimations of the size German communities with migrant background. “German with migrant background”, according to the census definition, are migrants of the first or second generation that are *also* German citizens. Since this census works with estimations, in order to provide reliable numbers, only information on groups of significant size are published. Therefore, not for every migrant community in every German state are numbers available [^4].
 
-5. **Geographical distance of German States to European Countries.**
+5.	**Geographical distance from German States to European Countries**
 
-In order to calculate the distances between the 16 German States and the different countries in the European continent, we created a dataset with the information needed. This was done by collecting data on City Name, Longitude, Latitude, Country, State, Region, City Status, Population Density, Population, and Id of more than 4 million unique cities around de world. With this dataset, we calculated the average distance between the German State's Capitals and all of the cities available in the dataset from each one of the European countries, to sequential determine the respective distance between them [^5].
+In order to calculate the distances between the 16 German States and the different European countries. Taking into account geographic and demographic information from a data set on simplemaps.com, we calculated the average distance between the German States' capitals and all available city data from each European country. This allowed us to create an average distance score from each German state to each European country [^5].
 
 [^1]: https://www-genesis.destatis.de/genesis//online?operation=table&code=23311-0006&bypass=true&levelindex=1&levelid=1664961110565#abreadcrumb
 [^2]: https://www.epfweb.org/node/857

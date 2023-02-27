@@ -56,8 +56,6 @@ foreigner or a German?
 - Binary classification: foreigner/German
 abortion
 
-Model used: SGD Classifier (TBA)
-
 
 **2. Motivation**
 

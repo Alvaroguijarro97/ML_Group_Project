@@ -4,28 +4,21 @@ Git Hub Repository for the Machine Learning group project.
 
 **1. Introduction**
 
-The "Europe Abortion Access Project" concludes that cross border travel for the purpose of seeking abortion care is a "phenomenon [that] remains poorly understood". The researchers argue that the lack of scientific insight in this aspect of  European abortion regimes is linked to a general lack of sufficient "quantitative and qualitative data" on the matter. Our research aims to contributing to a closure of this gap by investigating data on abortion numbers on the state-level within Germany. We believe that based on this data, we can contribute to finding answers regarding cross country abortion travel. Our goal is to develop a classification model that allows predictions on abortions performed on foreigners in comparison to abortions performed on German citizens. As independent variables.
-We expect a number of factors to potentially play a role when it comes to increase the share of abortions on foreigners: 
+The "Europe Abortion Access Project" concludes that cross border travel for the purpose of seeking abortion care is a "phenomenon [that] remains poorly understood". The researchers argue that the lack of scientific insight in this aspect of  European abortion regimes is linked to a general lack of sufficient "quantitative and qualitative data" on the matter. Our research aims to contributing to a closure of this gap by investigating data on abortion numbers on the state-level within Germany. We believe that based on this data, we can contribute to finding answers regarding cross country abortion travel. Our goal is to develop a classification model that allows predictions on abortions performed on foreigners in comparison to abortions performed on German citizens. As independent variables, we expect a number of factors to potentially play a role when it comes to increase the share of abortions on foreigners:
+
 1. An important factor is the share of foreigners in the overall population in a given state. There is a straightforward reasoning behind this expectation: Foreign residents are expected to seek abortions, a higher share of foreigners can be expected to result in a higher share of abortions performed on foreigners.
+
 2. However, we also expect a less direct positive effect of higher foreign populations to play a role. Women from abroad that consider travelling to Germany for an abortion might be inclined to do so in an area where they have a social network such as family members or friends (for emotional support, for logistical/language support, for shelter).  A bigger foreign community in a state could therefore be a pull factor for women to travel from abroad to this particular state in order to seek abortion care. This effect can be expected to be stronger for countries of origin that have a more restrictive abortion policy in place than Germany.
+
 3. In addition to a social network in a state, proximity to the country of origin might be a pull factor for women to travel to one state instead of another. Shorter (and possibly cheaper) traveling might be a reason to seek a therapy in a closer state. Again, this effect can be expected to be stronger for countries of origin that have a more restrictive abortion policy in place than Germany. In other words: states within Germany that are closer to borders with neighboring countries that have stricter abortion laws can be expected to have higher shares of foreigners seeking abortion treatment. 
 
-We intend to cover these effects on our dependent variable - the share of abortions performed on foreigners on
-overall population per state in proportion to the share of foreign population on overall population per state - in our model by combining a number of different data sets, as explained in greater detail further below. We hope to train our model based on a sample of roughly 100.000 abortions performed in Germany in the year 2021. Given the size of our sample and the nature of our research interest, we are confident that we can build a SGD classifier model that distinguishes between "foreign" and "domestic" abortions. 
+We intend to cover these effects on our dependent variable - the share of abortions performed on foreigners on overall population per state in proportion to the share of foreign population on overall population per state - in our model by combining a number of different data sets, as explained in greater detail further below. We hope to train our model based on a sample of roughly 100.000 abortions performed in Germany in the year 2021. Given the size of our sample and the nature of our research interest, we are confident that we can build a SGD classifier model that distinguishes between "foreign" and "domestic" abortions. 
 
-Especially within the Schengen Area, citizens of countries with (more) restrictive abortion policies might travel across borders to receive abortion treatment in (more) permissive neighboring states. Abortion
-policies of one country would thereby have an influence on abortion numbers in neighboring countries as well. We intend to shine a light on such effects by looking at data for the German states: Given for
-instance the strict regulation of abortions in Poland, a possible
-finding in line with the described assumption could be higher numbers of
-abortions performed on foreigners in German states close by Polish
-border. Quantifying such cross-border effects could as well help
-assessing the effectiveness of Schengen countries´ attempts to keep
-control over their abortion policies.
+Especially within the Schengen Area, citizens of countries with (more) restrictive abortion policies might travel across borders to receive abortion treatment in (more) permissive neighboring states. Abortion policies of one country would thereby have an influence on abortion numbers in neighboring countries as well. We intend to shine a light on such effects by looking at data for the German states: Given for instance the strict regulation of abortions in Poland, a possible finding in line with the described assumption could be higher numbers of abortions performed on foreigners in German states close by Polish border. Quantifying such cross-border effects could as well help assessing the effectiveness of Schengen countries´ attempts to keep control over their abortion policies.
 
 **Dependent Variable:**
-Share of Abortions performed on foreigners on
-overall population per state in proportion to: Share of foreign
-population on overall population per state
+
+Share of Abortions performed on foreigners on overall population per state in proportion to: Share of foreign population on overall population per state
 
 **Independent Variables:**
 
@@ -42,6 +35,7 @@ population on overall population per state
 - Interesting for network effects (foreigners going for their abortion to states where they have relatives/social network)
 
 **Research questions:**
+
 - Is there a over-proportionally big share of
 abortions performed on foreigeners in some states?
 - Classification
@@ -50,7 +44,6 @@ variables) predicted to be classified by our model to be performed on a
 foreigner or a German?
 - Binary classification: foreigner/German
 abortion
-
 
 **2. Motivation**
 
@@ -68,25 +61,17 @@ As already mentioned in the Europe Abortion Access Project writes on its researc
 
 In terms of our own academic progress, our motivation is that we hope to get a sense of how well data sources from the European multi-level governance system (in this case: state, country, EU) can be combined in order to gain insights Furthermore, our team shares an interest in health policy. This project thus allows us to take the first step towards applying our newly learned machine learning skills to policy analysis in this area.
 
-We are looking forward to working with large data sets (about 100,000 abortions in Germany per year). Here we are particularly interested in combining different data sets, as well as integrating different types of data sources, in order to derive new information in our combined field of interest.                              
+We are looking forward to working with large data sets (about 100,000 abortions in Germany per year). Here we are particularly interested in combining different data sets, as well as integrating different types of data sources, in order to derive new information in our combined field of interest.
 
 **3. Evaluation**
-
-What would the successful outcome of your project look like? In other words, under which circumstances would you consider your project to be 'successful'? How do you measure success, specific to this project, from a technical standpoint?
-
-------------------------------------------------------------------------
 
 Our Research model aims to shine a light on the question if the proximity of German states to bordering nations with a more restrictive stance on abortion leads to a higher percentage of abortions performed on foreigners in these states. Therefore, our Classification approach would be successful if we can predict if a given abortion, based on the input data/independent variables, was performed on a foreigner or a German. For [classification predictions](<https://www.jeremyjordan.me/evaluating-a-machine-learning-model/#:~:text=The%20three%20main%20metrics%20used,the%20number%20of%20total%20predictions.>), there are four possible types of outcomes: true positives, true negatives, false positives, false negatives. With this outcomes we can evaluate our classification model by its accuracy, precision, and recall. The most important evaluation metrics are precision (true positives / all positives) and recall (true positives / (false negatives + true positives)). For our initial research question, it will be more important to obtain a higher precision score, since we will be looking to develop a ML model that can accurately predict if an abortion procedure realized on German territory was applied to a German citizen or a foreigner.
 
  **4. Resources** 
  
-What resources are you going to use (datasets, computer hardware, computational tools, etc.)?       
-
-------------------------------------------------------------------------
-
 **Data Sets**
 
-1. The [European Abortion Policies Atlas](<https://www.epfweb.org/node/857>)
+1. [European Abortion Policies Atlas](<https://www.epfweb.org/node/857>)
 
 The European Abortion Policies Atlas is  an in-depth analysis of abortion policies across Europea, which scores 53 European countries and territories in accordance with their legal frameworks in reference to their access to safe abortion care. The Atlas is an initiative witch is powered by the European Parliamentary Forum for Sexual and Reproductive Rights (EPF) and International Planned Parenthood Federation European Network (IPPF EN).
 
@@ -105,33 +90,14 @@ country groupings/citizenship. With the help of this database we hope to identif
 
 With the help of this database, which contains information like City Name, Longitude, Latitude, Country, State, Region, City Status, Population Density, Population, and Id of more than 4 million unique cities around de world, we will create our own database with the information needed for the European Continent. With this database we expect to calculate the shortest distance from all of the German State's Capitals (or their biggest city) with the closest city from their neighboring European countries, in order to determine the distance between said states and countries.
  
-*Computational tools*
+**Computational tools**
 
 Github will be used for version control and collaboration, and coding will be performed in Jupyter Notebooks and Visual Studio Code.
 
 **5. Contributions**
 
-You are expected to share the workload evenly, and every group member is
-expected to participate in both the experiments and writing. (As a
-group, you only need to submit one proposal and one report, though. So
-you need to work together and coordinate your efforts.)
+Since we had to build most of the dataset from scratch, each team member was in charge of wrangling and standardising a portion of the data. With the help of a pipeline used for the transformation a standardization of the data developed by Justus and Niklas, The Abortion Score index(Niklas), the foreign population per state (Justus), the geographical distance of states to European countries (Alvaro), and migrant population state (Niklas and Justus) datasets were built and eventually joined into a master dataset used for the production of the different prediction models.
 
-Clearly indicate what computational and writing task each member of your
-group will be participating in.
-
-*|Sections required on final project:
-0. Abstract 
-1. Introduction
-2. Related Work (Alvaro)
-3. Proposed Method 
-5. Analysis 
-6. Conclusions 
-7. Acknowledgements 
-8. Contributions (Alvaro) 
-9. References (all) 
-10. Appendix (all) 
+Once that was done, Niklas wrote the Basic Model and a first Dummy Model, as well as the first Logistic Regression Model. Afterwards, Justus used that to implement a weighted Logistic Regression Model and calculate balanced and unbalanced accuracy. Together the two worked on the confusion Matrix, AUROC, Precision-Recall Curves, and plotting the Receiver Operating Characteristic (ROC) Curve. Justus then created three Random Forest Classifiers, as well as the SVM Model, and evaluated those. Niklas and Justus then analyzed together what they had computed. They generated a Random Forest Classification Feature Importance, plotted the top 15 most important features and calculated feature importance for each class separately. The team wrote each paper together. The final written result was then formatted by Alvaro.
 
 ------------------------------------------------------------------------
-
-Group member Alvaro Guijarro will be primarely focused on the data wrangling and preprocessing section in the Machile Learning pipeline. In order to costruct an effective ML classification model, we must work with a robust and clean data set, which will be the result of combining different data sources into a unified dataframe. Once this is done, we can later confidently split our data into the necessary training and testing sets. Alongside this tasks, Alvaro will also be leading the "Related Work", "Experiments" and "Contributions" sections of the final project report. 
-Nevertheless, all team members are expected to support and contribute towards the development of the ML model and writing of the final project paper.  

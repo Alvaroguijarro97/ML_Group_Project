@@ -367,31 +367,35 @@ Germany. We believe that based on this data, we can contribute to
 finding answers regarding cross country abortion travel. Our goal is to
 develop a classification model that allows predictions on abortions
 performed on foreigners in comparison to abortions performed on German
-citizens. As independent variables. We expect a number of factors to
+citizens. As independent variables, we expect a number of factors to
 potentially play a role when it comes to increase the share of abortions
-on foreigners: 1. An important factor is the share of foreigners in the
-overall population in a given state. There is a straightforward
-reasoning behind this expectation: Foreign residents are expected to
-seek abortions, a higher share of foreigners can be expected to result
-in a higher share of abortions performed on foreigners. 2. However, we
-also expect a less direct positive effect of higher foreign populations
-to play a role. Women from abroad that consider travelling to Germany
-for an abortion might be inclined to do so in an area where they have a
-social network such as family members or friends (for emotional support,
-for logistical/language support, for shelter). A bigger foreign
-community in a state could therefore be a pull factor for women to
-travel from abroad to this particular state in order to seek abortion
-care. This effect can be expected to be stronger for countries of origin
-that have a more restrictive abortion policy in place than Germany. 3.
-In addition to a social network in a state, proximity to the country of
-origin might be a pull factor for women to travel to one state instead
-of another. Shorter (and possibly cheaper) traveling might be a reason
-to seek a therapy in a closer state. Again, this effect can be expected
-to be stronger for countries of origin that have a more restrictive
-abortion policy in place than Germany. In other words: states within
-Germany that are closer to borders with neighboring countries that have
-stricter abortion laws can be expected to have higher shares of
-foreigners seeking abortion treatment.</p>
+on foreigners:</p>
+<ol style="list-style-type: decimal">
+<li><p>An important factor is the share of foreigners in the overall
+population in a given state. There is a straightforward reasoning behind
+this expectation: Foreign residents are expected to seek abortions, a
+higher share of foreigners can be expected to result in a higher share
+of abortions performed on foreigners.</p></li>
+<li><p>However, we also expect a less direct positive effect of higher
+foreign populations to play a role. Women from abroad that consider
+travelling to Germany for an abortion might be inclined to do so in an
+area where they have a social network such as family members or friends
+(for emotional support, for logistical/language support, for shelter). A
+bigger foreign community in a state could therefore be a pull factor for
+women to travel from abroad to this particular state in order to seek
+abortion care. This effect can be expected to be stronger for countries
+of origin that have a more restrictive abortion policy in place than
+Germany.</p></li>
+<li><p>In addition to a social network in a state, proximity to the
+country of origin might be a pull factor for women to travel to one
+state instead of another. Shorter (and possibly cheaper) traveling might
+be a reason to seek a therapy in a closer state. Again, this effect can
+be expected to be stronger for countries of origin that have a more
+restrictive abortion policy in place than Germany. In other words:
+states within Germany that are closer to borders with neighboring
+countries that have stricter abortion laws can be expected to have
+higher shares of foreigners seeking abortion treatment.</p></li>
+</ol>
 <p>We intend to cover these effects on our dependent variable - the
 share of abortions performed on foreigners on overall population per
 state in proportion to the share of foreign population on overall
@@ -414,10 +418,11 @@ abortions performed on foreigners in German states close by Polish
 border. Quantifying such cross-border effects could as well help
 assessing the effectiveness of Schengen countries´ attempts to keep
 control over their abortion policies.</p>
-<p>Dependent Variable: Share of Abortions performed on foreigners on
-overall population per state in proportion to: Share of foreign
-population on overall population per state</p>
-<p>Independent Variables:</p>
+<p><strong>Dependent Variable:</strong></p>
+<p>Share of Abortions performed on foreigners on overall population per
+state in proportion to: Share of foreign population on overall
+population per state</p>
+<p><strong>Independent Variables:</strong></p>
 <ul>
 <li>Proximity of neighboring countries (geographical distance)</li>
 <li>Including restrictiveness of respective countries (using abortion
@@ -440,12 +445,15 @@ atlas scores)</li>
 <li>Interesting for network effects (foreigners going for their abortion
 to states where they have relatives/social network)</li>
 </ul>
-<p>Research questions: - Is there a over-proportionally big share of
-abortions performed on foreigeners in some states? - Classification
-approach: Is a given abortion (based on the input data/independent
-variables) predicted to be classified by our model to be performed on a
-foreigner or a German? - Binary classification: foreigner/German
-abortion</p>
+<p><strong>Research questions:</strong></p>
+<ul>
+<li>Is there a over-proportionally big share of abortions performed on
+foreigeners in some states?</li>
+<li>Classification approach: Is a given abortion (based on the input
+data/independent variables) predicted to be classified by our model to
+be performed on a foreigner or a German?</li>
+<li>Binary classification: foreigner/German abortion</li>
+</ul>
 <p><strong>2. Motivation</strong></p>
 <p><strong>Societal Relevance</strong>:</p>
 <p>Europe’s health systems are embedded in their respective social
@@ -491,11 +499,6 @@ combining different data sets, as well as integrating different types of
 data sources, in order to derive new information in our combined field
 of interest.</p>
 <p><strong>3. Evaluation</strong></p>
-<p>What would the successful outcome of your project look like? In other
-words, under which circumstances would you consider your project to be
-‘successful’? How do you measure success, specific to this project, from
-a technical standpoint?</p>
-<hr />
 <p>Our Research model aims to shine a light on the question if the
 proximity of German states to bordering nations with a more restrictive
 stance on abortion leads to a higher percentage of abortions performed
@@ -514,13 +517,10 @@ will be looking to develop a ML model that can accurately predict if an
 abortion procedure realized on German territory was applied to a German
 citizen or a foreigner.</p>
 <p><strong>4. Resources</strong></p>
-<p>What resources are you going to use (datasets, computer hardware,
-computational tools, etc.)?</p>
-<hr />
 <p><strong>Data Sets</strong></p>
 <ol style="list-style-type: decimal">
-<li>The <a href="https://www.epfweb.org/node/857">European Abortion
-Policies Atlas</a></li>
+<li><a href="https://www.epfweb.org/node/857">European Abortion Policies
+Atlas</a></li>
 </ol>
 <p>The European Abortion Policies Atlas is an in-depth analysis of
 abortion policies across Europea, which scores 53 European countries and
@@ -572,32 +572,32 @@ expect to calculate the shortest distance from all of the German State’s
 Capitals (or their biggest city) with the closest city from their
 neighboring European countries, in order to determine the distance
 between said states and countries.</p>
-<p><em>Computational tools</em></p>
+<p><strong>Computational tools</strong></p>
 <p>Github will be used for version control and collaboration, and coding
 will be performed in Jupyter Notebooks and Visual Studio Code.</p>
 <p><strong>5. Contributions</strong></p>
-<p>You are expected to share the workload evenly, and every group member
-is expected to participate in both the experiments and writing. (As a
-group, you only need to submit one proposal and one report, though. So
-you need to work together and coordinate your efforts.)</p>
-<p>Clearly indicate what computational and writing task each member of
-your group will be participating in.</p>
-<p>*|Sections required on final project: 0. Abstract 1. Introduction 2.
-Related Work (Alvaro) 3. Proposed Method 5. Analysis 6. Conclusions 7.
-Acknowledgements 8. Contributions (Alvaro) 9. References (all) 10.
-Appendix (all)</p>
+<p>Since we had to build most of the dataset from scratch, each team
+member was in charge of wrangling and standardising a portion of the
+data. With the help of a pipeline used for the transformation a
+standardization of the data developed by Justus and Niklas, The Abortion
+Score index(Niklas), the foreign population per state (Justus), the
+geographical distance of states to European countries (Alvaro), and
+migrant population state (Niklas and Justus) datasets were built and
+eventually joined into a master dataset used for the production of the
+different prediction models.</p>
+<p>Once that was done, Niklas wrote the Basic Model and a first Dummy
+Model, as well as the first Logistic Regression Model. Afterwards,
+Justus used that to implement a weighted Logistic Regression Model and
+calculate balanced and unbalanced accuracy. Together the two worked on
+the confusion Matrix, AUROC, Precision-Recall Curves, and plotting the
+Receiver Operating Characteristic (ROC) Curve. Justus then created three
+Random Forest Classifiers, as well as the SVM Model, and evaluated
+those. Niklas and Justus then analyzed together what they had computed.
+They generated a Random Forest Classification Feature Importance,
+plotted the top 15 most important features and calculated feature
+importance for each class separately. The team wrote each paper
+together. The final written result was then formatted by Alvaro.</p>
 <hr />
-<p>Group member Alvaro Guijarro will be primarely focused on the data
-wrangling and preprocessing section in the Machile Learning pipeline. In
-order to costruct an effective ML classification model, we must work
-with a robust and clean data set, which will be the result of combining
-different data sources into a unified dataframe. Once this is done, we
-can later confidently split our data into the necessary training and
-testing sets. Alongside this tasks, Alvaro will also be leading the
-“Related Work”, “Experiments” and “Contributions” sections of the final
-project report. Nevertheless, all team members are expected to support
-and contribute towards the development of the ML model and writing of
-the final project paper.</p>
 </div>
 
 

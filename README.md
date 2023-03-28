@@ -1,10 +1,4 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
-# ML_Group_Project
+# Machine Learning Group Project
 
 Git Hub Repository for the Machine Learning group project.
 
@@ -89,7 +83,7 @@ What resources are you going to use (datasets, computer hardware, computational 
 
 ------------------------------------------------------------------------
 
-*Data Sets*
+**Data Sets**
 
 1. The [European Abortion Policies Atlas](<https://www.epfweb.org/node/857>)
 

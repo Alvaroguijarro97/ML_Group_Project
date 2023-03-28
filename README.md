@@ -22,11 +22,12 @@ border. Quantifying such cross-border effects could as well help
 assessing the effectiveness of Schengen countries´ attempts to keep
 control over their abortion policies.
 
-Dependent Variable: Share of Abortions performed on foreigners on
+**Dependent Variable:**
+Share of Abortions performed on foreigners on
 overall population per state in proportion to: Share of foreign
 population on overall population per state
 
-Independent Variables:
+**Independent Variables:**
 
 - Proximity of neighboring countries (geographical distance)
 - Including restrictiveness of respective countries (using abortion atlas scores)
@@ -40,7 +41,7 @@ Independent Variables:
 - Including restrictiveness of respective countries (using abortion atlas scores)
 - Interesting for network effects (foreigners going for their abortion to states where they have relatives/social network)
 
-Research questions:
+**Research questions:**
 - Is there a over-proportionally big share of
 abortions performed on foreigeners in some states?
 - Classification
